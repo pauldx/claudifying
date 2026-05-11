@@ -1,0 +1,422 @@
+{
+  "generated": "2026-05-11T00:00:00Z",
+  "source": "aitmpl.com/commands",
+  "total": 48,
+  "note": "Slash commands from aitmpl.com marketplace. See CATALOG.md for full index with usage examples.",
+  "categories": {
+    "productivity": {
+      "count": 8,
+      "display_name": "Productivity",
+      "commands": [
+        {
+          "name": "todo",
+          "description": "Create and manage todo lists",
+          "trigger": "/todo",
+          "category": "productivity",
+          "usage": "/todo add task | /todo list | /todo done <id>",
+          "url": "https://www.aitmpl.com/component/command/productivity/todo"
+        },
+        {
+          "name": "timer",
+          "description": "Set time intervals and reminders",
+          "trigger": "/timer",
+          "category": "productivity",
+          "usage": "/timer 25m | /timer start pomodoro",
+          "url": "https://www.aitmpl.com/component/command/productivity/timer"
+        },
+        {
+          "name": "note",
+          "description": "Quick note taking and storage",
+          "trigger": "/note",
+          "category": "productivity",
+          "usage": "/note save | /note list | /note search <term>",
+          "url": "https://www.aitmpl.com/component/command/productivity/note"
+        },
+        {
+          "name": "calendar",
+          "description": "Calendar integration and scheduling",
+          "trigger": "/calendar",
+          "category": "productivity",
+          "usage": "/calendar add event | /calendar show",
+          "url": "https://www.aitmpl.com/component/command/productivity/calendar"
+        },
+        {
+          "name": "reminders",
+          "description": "Set reminders and notifications",
+          "trigger": "/remind",
+          "category": "productivity",
+          "usage": "/remind me in 30 minutes",
+          "url": "https://www.aitmpl.com/component/command/productivity/reminders"
+        },
+        {
+          "name": "bookmark",
+          "description": "Save and organize bookmarks",
+          "trigger": "/bookmark",
+          "category": "productivity",
+          "usage": "/bookmark save | /bookmark list",
+          "url": "https://www.aitmpl.com/component/command/productivity/bookmark"
+        },
+        {
+          "name": "dictionary",
+          "description": "Word definitions and thesaurus",
+          "trigger": "/dict",
+          "category": "productivity",
+          "usage": "/dict <word> | /dict synonyms <word>",
+          "url": "https://www.aitmpl.com/component/command/productivity/dictionary"
+        },
+        {
+          "name": "calculator",
+          "description": "Advanced calculations and conversions",
+          "trigger": "/calc",
+          "category": "productivity",
+          "usage": "/calc 2+2*3 | /calc convert 100km to miles",
+          "url": "https://www.aitmpl.com/component/command/productivity/calculator"
+        }
+      ]
+    },
+    "development": {
+      "count": 12,
+      "display_name": "Development & Code",
+      "commands": [
+        {
+          "name": "snippets",
+          "description": "Code snippet management",
+          "trigger": "/snippet",
+          "category": "development",
+          "usage": "/snippet save <lang> | /snippet list",
+          "url": "https://www.aitmpl.com/component/command/development/snippets"
+        },
+        {
+          "name": "format",
+          "description": "Code formatting and beautification",
+          "trigger": "/format",
+          "category": "development",
+          "usage": "/format json | /format xml",
+          "url": "https://www.aitmpl.com/component/command/development/format"
+        },
+        {
+          "name": "lint",
+          "description": "Code linting and analysis",
+          "trigger": "/lint",
+          "category": "development",
+          "usage": "/lint javascript | /lint python",
+          "url": "https://www.aitmpl.com/component/command/development/lint"
+        },
+        {
+          "name": "test",
+          "description": "Run tests and generate test cases",
+          "trigger": "/test",
+          "category": "development",
+          "usage": "/test run | /test coverage",
+          "url": "https://www.aitmpl.com/component/command/development/test"
+        },
+        {
+          "name": "debug",
+          "description": "Debugging tools and breakpoints",
+          "trigger": "/debug",
+          "category": "development",
+          "usage": "/debug log <var> | /debug break",
+          "url": "https://www.aitmpl.com/component/command/development/debug"
+        },
+        {
+          "name": "api-test",
+          "description": "API testing and mocking",
+          "trigger": "/api",
+          "category": "development",
+          "usage": "/api test <endpoint> | /api mock <response>",
+          "url": "https://www.aitmpl.com/component/command/development/api-test"
+        },
+        {
+          "name": "regex",
+          "description": "Regular expression builder and tester",
+          "trigger": "/regex",
+          "category": "development",
+          "usage": "/regex test <pattern> | /regex explain <pattern>",
+          "url": "https://www.aitmpl.com/component/command/development/regex"
+        },
+        {
+          "name": "database",
+          "description": "Database query builder and explorer",
+          "trigger": "/db",
+          "category": "development",
+          "usage": "/db query <sql> | /db schema show",
+          "url": "https://www.aitmpl.com/component/command/development/database"
+        },
+        {
+          "name": "git-assist",
+          "description": "Git commands and workflow helpers",
+          "trigger": "/git",
+          "category": "development",
+          "usage": "/git log | /git branch create <name>",
+          "url": "https://www.aitmpl.com/component/command/development/git-assist"
+        },
+        {
+          "name": "dependency",
+          "description": "Dependency and package management",
+          "trigger": "/dep",
+          "category": "development",
+          "usage": "/dep list | /dep update <package>",
+          "url": "https://www.aitmpl.com/component/command/development/dependency"
+        },
+        {
+          "name": "docker-cli",
+          "description": "Docker container management",
+          "trigger": "/docker",
+          "category": "development",
+          "usage": "/docker run | /docker logs <container>",
+          "url": "https://www.aitmpl.com/component/command/development/docker-cli"
+        },
+        {
+          "name": "env-manager",
+          "description": "Environment variables management",
+          "trigger": "/env",
+          "category": "development",
+          "usage": "/env list | /env set KEY=value",
+          "url": "https://www.aitmpl.com/component/command/development/env-manager"
+        }
+      ]
+    },
+    "writing": {
+      "count": 10,
+      "display_name": "Writing & Content",
+      "commands": [
+        {
+          "name": "grammar-check",
+          "description": "Grammar and spell checking",
+          "trigger": "/grammar",
+          "category": "writing",
+          "usage": "/grammar check <text>",
+          "url": "https://www.aitmpl.com/component/command/writing/grammar-check"
+        },
+        {
+          "name": "markdown",
+          "description": "Markdown formatting helpers",
+          "trigger": "/md",
+          "category": "writing",
+          "usage": "/md table | /md code block",
+          "url": "https://www.aitmpl.com/component/command/writing/markdown"
+        },
+        {
+          "name": "word-count",
+          "description": "Document analysis and statistics",
+          "trigger": "/wc",
+          "category": "writing",
+          "usage": "/wc analyze | /wc readability",
+          "url": "https://www.aitmpl.com/component/command/writing/word-count"
+        },
+        {
+          "name": "paraphrase",
+          "description": "Text paraphrasing and rewriting",
+          "trigger": "/rephrase",
+          "category": "writing",
+          "usage": "/rephrase <text>",
+          "url": "https://www.aitmpl.com/component/command/writing/paraphrase"
+        },
+        {
+          "name": "summary",
+          "description": "Text summarization",
+          "trigger": "/summarize",
+          "category": "writing",
+          "usage": "/summarize <text> --length short",
+          "url": "https://www.aitmpl.com/component/command/writing/summary"
+        },
+        {
+          "name": "outline",
+          "description": "Document outline and structure",
+          "trigger": "/outline",
+          "category": "writing",
+          "usage": "/outline generate | /outline expand",
+          "url": "https://www.aitmpl.com/component/command/writing/outline"
+        },
+        {
+          "name": "tone-check",
+          "description": "Tone and sentiment analysis",
+          "trigger": "/tone",
+          "category": "writing",
+          "usage": "/tone analyze | /tone formal",
+          "url": "https://www.aitmpl.com/component/command/writing/tone-check"
+        },
+        {
+          "name": "citation",
+          "description": "Citation generation (APA, MLA, Chicago)",
+          "trigger": "/cite",
+          "category": "writing",
+          "usage": "/cite format apa | /cite from url",
+          "url": "https://www.aitmpl.com/component/command/writing/citation"
+        },
+        {
+          "name": "template",
+          "description": "Document templates and starters",
+          "trigger": "/template",
+          "category": "writing",
+          "usage": "/template resume | /template proposal",
+          "url": "https://www.aitmpl.com/component/command/writing/template"
+        },
+        {
+          "name": "glossary",
+          "description": "Terminology and glossary management",
+          "trigger": "/glossary",
+          "category": "writing",
+          "usage": "/glossary add term definition | /glossary list",
+          "url": "https://www.aitmpl.com/component/command/writing/glossary"
+        }
+      ]
+    },
+    "data": {
+      "count": 10,
+      "display_name": "Data & Analytics",
+      "commands": [
+        {
+          "name": "csv-tools",
+          "description": "CSV parsing and manipulation",
+          "trigger": "/csv",
+          "category": "data",
+          "usage": "/csv parse | /csv convert",
+          "url": "https://www.aitmpl.com/component/command/data/csv-tools"
+        },
+        {
+          "name": "json-tools",
+          "description": "JSON validation and transformation",
+          "trigger": "/json",
+          "category": "data",
+          "usage": "/json validate | /json transform",
+          "url": "https://www.aitmpl.com/component/command/data/json-tools"
+        },
+        {
+          "name": "xml-tools",
+          "description": "XML parsing and formatting",
+          "trigger": "/xml",
+          "category": "data",
+          "usage": "/xml validate | /xml format",
+          "url": "https://www.aitmpl.com/component/command/data/xml-tools"
+        },
+        {
+          "name": "sql-query",
+          "description": "SQL query builder and optimization",
+          "trigger": "/sql",
+          "category": "data",
+          "usage": "/sql build select | /sql optimize",
+          "url": "https://www.aitmpl.com/component/command/data/sql-query"
+        },
+        {
+          "name": "chart",
+          "description": "Data visualization and charts",
+          "trigger": "/chart",
+          "category": "data",
+          "usage": "/chart bar <data> | /chart line <data>",
+          "url": "https://www.aitmpl.com/component/command/data/chart"
+        },
+        {
+          "name": "stats",
+          "description": "Statistical analysis tools",
+          "trigger": "/stats",
+          "category": "data",
+          "usage": "/stats analyze <dataset>",
+          "url": "https://www.aitmpl.com/component/command/data/stats"
+        },
+        {
+          "name": "conversion",
+          "description": "Unit and format conversion",
+          "trigger": "/convert",
+          "category": "data",
+          "usage": "/convert 100km to miles | /convert csv to json",
+          "url": "https://www.aitmpl.com/component/command/data/conversion"
+        },
+        {
+          "name": "comparison",
+          "description": "Data comparison and diff",
+          "trigger": "/diff",
+          "category": "data",
+          "usage": "/diff file1 file2 | /diff json1 json2",
+          "url": "https://www.aitmpl.com/component/command/data/comparison"
+        },
+        {
+          "name": "aggregation",
+          "description": "Data aggregation and grouping",
+          "trigger": "/agg",
+          "category": "data",
+          "usage": "/agg group <column> | /agg sum <column>",
+          "url": "https://www.aitmpl.com/component/command/data/aggregation"
+        },
+        {
+          "name": "validation",
+          "description": "Data validation and schema checking",
+          "trigger": "/validate",
+          "category": "data",
+          "usage": "/validate json schema | /validate email list",
+          "url": "https://www.aitmpl.com/component/command/data/validation"
+        }
+      ]
+    },
+    "research": {
+      "count": 8,
+      "display_name": "Research & Learning",
+      "commands": [
+        {
+          "name": "search",
+          "description": "Web search and research",
+          "trigger": "/search",
+          "category": "research",
+          "usage": "/search <query> | /search academic <query>",
+          "url": "https://www.aitmpl.com/component/command/research/search"
+        },
+        {
+          "name": "wikipedia",
+          "description": "Wikipedia lookup and summaries",
+          "trigger": "/wiki",
+          "category": "research",
+          "usage": "/wiki <topic> | /wiki summary <topic>",
+          "url": "https://www.aitmpl.com/component/command/research/wikipedia"
+        },
+        {
+          "name": "scholar",
+          "description": "Academic paper and research lookup",
+          "trigger": "/scholar",
+          "category": "research",
+          "usage": "/scholar search <topic>",
+          "url": "https://www.aitmpl.com/component/command/research/scholar"
+        },
+        {
+          "name": "translation",
+          "description": "Language translation and detection",
+          "trigger": "/translate",
+          "category": "research",
+          "usage": "/translate to spanish | /translate detect <text>",
+          "url": "https://www.aitmpl.com/component/command/research/translation"
+        },
+        {
+          "name": "explain",
+          "description": "Explain complex concepts",
+          "trigger": "/explain",
+          "category": "research",
+          "usage": "/explain <concept> --level beginner",
+          "url": "https://www.aitmpl.com/component/command/research/explain"
+        },
+        {
+          "name": "compare",
+          "description": "Compare concepts or items",
+          "trigger": "/compare",
+          "category": "research",
+          "usage": "/compare <item1> <item2>",
+          "url": "https://www.aitmpl.com/component/command/research/compare"
+        },
+        {
+          "name": "timeline",
+          "description": "Historical timeline builder",
+          "trigger": "/timeline",
+          "category": "research",
+          "usage": "/timeline <event> | /timeline era <period>",
+          "url": "https://www.aitmpl.com/component/command/research/timeline"
+        },
+        {
+          "name": "mindmap",
+          "description": "Mind mapping and brainstorming",
+          "trigger": "/mindmap",
+          "category": "research",
+          "usage": "/mindmap create <topic>",
+          "url": "https://www.aitmpl.com/component/command/research/mindmap"
+        }
+      ]
+    }
+  }
+}

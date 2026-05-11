@@ -1,0 +1,1595 @@
+{
+  "metadata": {
+    "source": "aitmpl.com/plugins/",
+    "total_collections": 30,
+    "extraction_date": "2026-05-11",
+    "note": "Consolidated plugin extraction from 30 collection pages"
+  },
+  "collections": [
+    {
+      "collection_name": "everything-claude-code",
+      "collection_url": "https://www.aitmpl.com/plugins/everything-claude-code",
+      "author": "affaan-m",
+      "plugins": [
+        {
+          "name": "Everything Claude Code",
+          "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "categories": ["Skills", "Agents", "Commands", "Hooks"],
+          "stars": 113000,
+          "github_url": "https://github.com/affaan-m/everything-claude-code",
+          "website_url": "https://ecc.tools",
+          "installation": "/plugin marketplace add affaan-m/everything-claude-code; /plugin install everything-claude-code@affaan-m-everything-claude-code"
+        }
+      ]
+    },
+    {
+      "collection_name": "claude-plugins-official",
+      "collection_url": "https://www.aitmpl.com/plugins/claude-plugins-official",
+      "author": "Anthropic",
+      "total_plugins": 119,
+      "plugins": [
+        {
+          "name": "agent-sdk-dev",
+          "description": "Development kit for Claude Agent SDK",
+          "categories": ["Development Tools"],
+          "type": "Anthropic",
+          "components": "2 agents, 1 command"
+        },
+        {
+          "name": "asana",
+          "description": "Project management integration for task creation and progress tracking",
+          "categories": ["Productivity"],
+          "type": "Anthropic"
+        },
+        {
+          "name": "autofix-bot",
+          "description": "Detects security vulnerabilities, code quality issues, and hardcoded secrets",
+          "categories": ["Code Review"],
+          "components": "5,000+ static analyzers",
+          "author": "DeepSource Corp"
+        },
+        {
+          "name": "clangd-lsp",
+          "description": "C/C++ language server",
+          "categories": ["Language Support"],
+          "components": "1 LSP",
+          "type": "Anthropic"
+        },
+        {
+          "name": "claude-code-setup",
+          "description": "Codebase analysis and automation recommendations",
+          "categories": ["Development Tools"],
+          "components": "1 skill",
+          "type": "Anthropic"
+        },
+        {
+          "name": "claude-md-management",
+          "description": "CLAUDE.md file maintenance tools and session learning capture",
+          "categories": ["Documentation"],
+          "type": "Anthropic"
+        },
+        {
+          "name": "code-review",
+          "description": "Automated PR review with confidence scoring",
+          "categories": ["Code Review"],
+          "components": "1 command",
+          "type": "Anthropic"
+        },
+        {
+          "name": "code-simplifier",
+          "description": "Code clarity and consistency improvement",
+          "categories": ["Code Refactoring"],
+          "components": "1 agent",
+          "type": "Anthropic"
+        },
+        {
+          "name": "coderabbit",
+          "description": "Your code review partner with 40+ integrated analyzers and AST parsing",
+          "categories": ["Code Review"]
+        },
+        {
+          "name": "commit-commands",
+          "description": "Git workflow automation",
+          "categories": ["Version Control"],
+          "components": "3 commands",
+          "type": "Anthropic"
+        },
+        {
+          "name": "context7",
+          "description": "Version-specific documentation lookup via Upstash MCP server",
+          "categories": ["Documentation"],
+          "type": "community-managed"
+        },
+        {
+          "name": "csharp-lsp",
+          "description": "C# language server",
+          "categories": ["Language Support"],
+          "components": "1 LSP",
+          "type": "Anthropic"
+        },
+        {
+          "name": "discord",
+          "description": "Team messaging integration with access control",
+          "categories": ["Communication"],
+          "components": "2 skills",
+          "type": "Anthropic"
+        },
+        {
+          "name": "explanatory-output-style",
+          "description": "Educational implementation insights",
+          "categories": ["Output Customization"],
+          "components": "1 hook",
+          "type": "Anthropic"
+        },
+        {
+          "name": "fakechat",
+          "description": "Localhost web chat for testing with no authentication required",
+          "categories": ["Testing Tools"],
+          "type": "Anthropic"
+        },
+        {
+          "name": "feature-dev",
+          "description": "Comprehensive feature development workflow",
+          "categories": ["Development Workflow"],
+          "components": "3 agents, 1 command",
+          "type": "Anthropic"
+        },
+        {
+          "name": "firebase",
+          "description": "Firestore, authentication, and cloud functions management",
+          "categories": ["Backend Services"],
+          "type": "Anthropic"
+        },
+        {
+          "name": "frontend-design",
+          "description": "Production-grade interface creation",
+          "categories": ["UI/UX"],
+          "components": "1 skill",
+          "type": "Anthropic"
+        },
+        {
+          "name": "github",
+          "description": "Official GitHub repository management with PR, issue, and code review capabilities",
+          "categories": ["Version Control"],
+          "type": "Anthropic"
+        },
+        {
+          "name": "gopls-lsp",
+          "description": "Go language server",
+          "categories": ["Language Support"],
+          "components": "1 LSP",
+          "type": "Anthropic"
+        },
+        {
+          "name": "hookify",
+          "description": "Custom hook creation for behavior prevention",
+          "categories": ["Customization"],
+          "components": "1 skill, 1 agent, 4 commands, 6 hooks",
+          "type": "Anthropic"
+        },
+        {
+          "name": "imessage",
+          "description": "iMessage messaging bridge with built-in access control",
+          "categories": ["Communication"],
+          "components": "2 skills",
+          "type": "Anthropic"
+        },
+        {
+          "name": "jdtls-lsp",
+          "description": "Java language server",
+          "categories": ["Language Support"],
+          "components": "1 LSP",
+          "type": "Anthropic"
+        },
+        {
+          "name": "kotlin-lsp",
+          "description": "Kotlin language server",
+          "categories": ["Language Support"],
+          "components": "1 LSP",
+          "type": "Anthropic"
+        },
+        {
+          "name": "learning-output-style",
+          "description": "Interactive learning mode for meaningful contributions",
+          "categories": ["Output Customization"],
+          "components": "1 hook",
+          "type": "Anthropic"
+        },
+        {
+          "name": "lua-lsp",
+          "description": "Lua language server",
+          "categories": ["Language Support"],
+          "components": "1 LSP",
+          "type": "Anthropic"
+        },
+        {
+          "name": "mcp-server-dev",
+          "description": "MCP server design and building with deployment and pattern skills",
+          "categories": ["Development Tools"],
+          "components": "3 skills",
+          "type": "Anthropic"
+        },
+        {
+          "name": "php-lsp",
+          "description": "PHP language server",
+          "categories": ["Language Support"],
+          "components": "1 LSP",
+          "type": "Anthropic"
+        },
+        {
+          "name": "playwright",
+          "description": "Browser automation and E2E testing with form filling and screenshot capabilities",
+          "categories": ["Testing Tools"],
+          "author": "Microsoft"
+        },
+        {
+          "name": "plugin-dev",
+          "description": "Comprehensive plugin development toolkit",
+          "categories": ["Development Tools"],
+          "components": "7 skills, 3 agents, 1 command",
+          "type": "Anthropic"
+        },
+        {
+          "name": "playground",
+          "description": "Interactive HTML playground creation",
+          "categories": ["Development Tools"],
+          "components": "1 skill",
+          "type": "Anthropic"
+        },
+        {
+          "name": "pr-review-toolkit",
+          "description": "Comprehensive PR review agents",
+          "categories": ["Code Review"],
+          "components": "6 agents, 1 command",
+          "type": "Anthropic"
+        },
+        {
+          "name": "pyright-lsp",
+          "description": "Python language server",
+          "categories": ["Language Support"],
+          "components": "1 LSP",
+          "type": "Anthropic"
+        },
+        {
+          "name": "ralph-loop",
+          "description": "Self-referential iterative development loops",
+          "categories": ["Development Workflow"],
+          "components": "3 commands, 1 hook",
+          "type": "Anthropic"
+        },
+        {
+          "name": "ruby-lsp",
+          "description": "Modern Ruby language server",
+          "categories": ["Language Support"],
+          "components": "1 LSP",
+          "type": "Anthropic"
+        },
+        {
+          "name": "rust-analyzer-lsp",
+          "description": "Rust language server",
+          "categories": ["Language Support"],
+          "components": "1 LSP",
+          "type": "Anthropic"
+        },
+        {
+          "name": "security-guidance",
+          "description": "Security issue warnings during file editing",
+          "categories": ["Security"],
+          "components": "2 hooks",
+          "type": "Anthropic"
+        },
+        {
+          "name": "skill-creator",
+          "description": "Skill creation, improvement, and evaluation",
+          "categories": ["Development Tools"],
+          "components": "1 skill",
+          "type": "Anthropic"
+        },
+        {
+          "name": "supabase",
+          "description": "Database, authentication, and storage management with real-time subscription support",
+          "categories": ["Backend Services"],
+          "type": "Anthropic"
+        },
+        {
+          "name": "swift-lsp",
+          "description": "Swift language server",
+          "categories": ["Language Support"],
+          "components": "1 LSP",
+          "type": "Anthropic"
+        },
+        {
+          "name": "telegram",
+          "description": "Telegram messaging bridge",
+          "categories": ["Communication"],
+          "components": "2 skills",
+          "type": "Anthropic"
+        },
+        {
+          "name": "terraform",
+          "description": "Terraform ecosystem integration for Infrastructure as Code automation",
+          "categories": ["Infrastructure"],
+          "author": "HashiCorp"
+        },
+        {
+          "name": "typescript-lsp",
+          "description": "TypeScript/JavaScript language server",
+          "categories": ["Language Support"],
+          "components": "1 LSP",
+          "type": "Anthropic"
+        }
+      ]
+    },
+    {
+      "collection_name": "claude-code-plugins-plus-skills",
+      "collection_url": "https://www.aitmpl.com/plugins/claude-code-plugins-plus-skills",
+      "author": "Jeremy Longshore",
+      "total_plugins": 416,
+      "installation": "/plugin install <plugin-name>@jeremylongshore-claude-code-plugins-plus-skills",
+      "plugins_sample": [
+        {
+          "name": "000-jeremy-content-consistency-validator",
+          "description": "Generates comprehensive discrepancy reports comparing messaging consistency across HTML-based websites without making changes",
+          "categories": ["Skills", "Commands"],
+          "author": "Jeremy Longshore"
+        },
+        {
+          "name": "access-control-auditor",
+          "description": "Audits access control implementations",
+          "categories": ["Skills", "Commands"],
+          "author": "Jeremy Longshore"
+        },
+        {
+          "name": "ai-commit-gen",
+          "description": "AI-powered commit message generator - analyzes your git diff and creates conventional commit messages instantly",
+          "categories": ["Skills", "Commands"],
+          "author": "Jeremy Longshore"
+        },
+        {
+          "name": "api-authentication-builder",
+          "description": "Constructs authentication systems utilizing JWT, OAuth2, and API keys",
+          "categories": ["Skills"],
+          "components": "2 skills, 1 command",
+          "author": "Jeremy Longshore"
+        },
+        {
+          "name": "blockchain-explorer-cli",
+          "description": "Command-line blockchain explorer for transactions, addresses, and contracts",
+          "categories": ["Skills", "Commands"],
+          "components": "2 skills, 1 command",
+          "author": "Jeremy Longshore"
+        },
+        {
+          "name": "backup-strategy-implementor",
+          "description": "Implements backup strategies for databases and applications",
+          "categories": ["Skills", "Commands"],
+          "author": "Jeremy Longshore"
+        },
+        {
+          "name": "cloud-cost-optimizer",
+          "description": "Optimizes cloud expenditures and generates cost analyses",
+          "categories": ["Cloud"],
+          "author": "Jeremy Longshore"
+        },
+        {
+          "name": "container-security-scanner",
+          "description": "Scans containers for vulnerabilities using Trivy, Snyk, and other security tools",
+          "categories": ["Security"],
+          "author": "Jeremy Longshore"
+        },
+        {
+          "name": "creator-studio-pack",
+          "description": "Complete plugin suite for builder-filmmakers: Build products AND create viral videos (20 plugins)",
+          "categories": ["Skills"],
+          "author": "Jeremy Longshore"
+        },
+        {
+          "name": "database-migration-manager",
+          "description": "Manage database migrations with version control, rollback capabilities, and automated schema evolution tracking",
+          "categories": ["Database"],
+          "author": "Jeremy Longshore"
+        },
+        {
+          "name": "design-to-code",
+          "description": "Converts Figma designs and screenshots to React/Svelte/Vue components with built-in accessibility",
+          "categories": ["Design"],
+          "author": "Jeremy Longshore"
+        },
+        {
+          "name": "devops-automation-pack",
+          "description": "Complete suite with 25 plugins covering Git workflows, CI/CD, Docker, Kubernetes, and Terraform",
+          "categories": ["DevOps"],
+          "author": "Jeremy Longshore"
+        },
+        {
+          "name": "fullstack-starter-pack",
+          "description": "Complete fullstack development toolkit: React, Express/FastAPI, PostgreSQL scaffolding with AI agents",
+          "categories": ["Skills"],
+          "author": "Jeremy Longshore"
+        },
+        {
+          "name": "security-pro-pack",
+          "description": "Professional security tools offering vulnerability scanning, compliance, cryptography audit, container & API security",
+          "categories": ["Security"],
+          "author": "Jeremy Longshore"
+        }
+      ]
+    },
+    {
+      "collection_name": "claude-forge",
+      "collection_url": "https://www.aitmpl.com/plugins/claude-forge",
+      "author": "sangrokjung",
+      "plugins": [
+        {
+          "name": "Claude Forge",
+          "description": "Supercharge Claude Code with 11 AI agents, 36 commands & 15 skills — the claude-code plugin framework inspired by oh-my-zsh.",
+          "categories": ["Skills", "Agents", "Commands", "Hooks", "Rules"],
+          "stars": 612,
+          "github_url": "https://github.com/sangrokjung/claude-forge",
+          "website_url": "https://sangrokjung.github.io/claude-forge",
+          "installation": "/plugin marketplace add sangrokjung/claude-forge; /plugin install claude-forge@sangrokjung-claude-forge",
+          "features": "6-layer security hooks, 5-minute installation"
+        }
+      ]
+    },
+    {
+      "collection_name": "agentsys",
+      "collection_url": "https://www.aitmpl.com/plugins/agentsys",
+      "author": "agent-sh",
+      "total_plugins": 19,
+      "github_url": "https://github.com/agent-sh/agentsys",
+      "website_url": "https://agent-sh.github.io/agentsys/",
+      "plugins": [
+        {
+          "name": "next-task",
+          "description": "Master workflow orchestrator: autonomous workflow with model optimization",
+          "categories": ["Agents"]
+        },
+        {
+          "name": "prepare-delivery",
+          "description": "Pre-ship quality gates: deslop, simplify, agnix, enhance, review loop",
+          "categories": ["Commands"]
+        },
+        {
+          "name": "gate-and-ship",
+          "description": "Chains prepare-delivery and ship commands for unified deployment",
+          "categories": ["Commands"]
+        },
+        {
+          "name": "ship",
+          "description": "Complete PR workflow: commit to production, skips review when called",
+          "categories": ["Commands"]
+        },
+        {
+          "name": "deslop",
+          "description": "3-phase AI slop detection: regex patterns (HIGH), multi-pass analyzers",
+          "categories": ["Tools"]
+        },
+        {
+          "name": "audit-project",
+          "description": "Performs iterative multi-agent code review cycles",
+          "categories": ["Commands"]
+        },
+        {
+          "name": "drift-detect",
+          "description": "Analyzes repositories to realign plans with actual code state",
+          "categories": ["Analysis"]
+        },
+        {
+          "name": "enhance",
+          "description": "Orchestrates parallel analyzers for plugins, agents, docs, and prompts",
+          "categories": ["Commands"]
+        },
+        {
+          "name": "sync-docs",
+          "description": "Updates documentation based on code changes",
+          "categories": ["Documentation"]
+        },
+        {
+          "name": "repo-intel",
+          "description": "Unified static analysis via agent-analyzer - git history, AST symbols",
+          "categories": ["Analysis"]
+        },
+        {
+          "name": "perf",
+          "description": "Conducts performance investigation with profiling and analysis",
+          "categories": ["Tools"]
+        },
+        {
+          "name": "learn",
+          "description": "Creates comprehensive learning guides with online research",
+          "categories": ["Knowledge"]
+        },
+        {
+          "name": "agnix",
+          "description": "Lints AI tool configuration files against 342 rules",
+          "categories": ["Validation"]
+        },
+        {
+          "name": "consult",
+          "description": "Obtains second opinions from multiple AI CLI tools",
+          "categories": ["Utilities"]
+        },
+        {
+          "name": "debate",
+          "description": "Facilitates structured multi-round debates between AI tools",
+          "categories": ["Utilities"]
+        },
+        {
+          "name": "web-ctl",
+          "description": "Browser automation and web testing toolkit for AI agents",
+          "categories": ["Testing"]
+        },
+        {
+          "name": "skillers",
+          "description": "Identifies automation opportunities from workflow patterns",
+          "categories": ["Learning"]
+        },
+        {
+          "name": "onboard",
+          "description": "Provides automated codebase onboarding and orientation",
+          "categories": ["Onboarding"]
+        },
+        {
+          "name": "can-i-help",
+          "description": "Identifies contribution opportunities matching developer skills",
+          "categories": ["Community"]
+        }
+      ]
+    },
+    {
+      "collection_name": "ccplugins-awesome-claude-code-plugins",
+      "collection_url": "https://www.aitmpl.com/plugins/ccplugins-awesome-claude-code-plugins",
+      "author": "ccplugins",
+      "total_plugins": 118,
+      "website_url": "https://claudecodeplugins.dev",
+      "github_url": "https://github.com/ccplugins/awesome-claude-code-plugins",
+      "plugins_sample": [
+        {
+          "name": "documentation-generator",
+          "description": "Create comprehensive documentation for code, APIs, and projects",
+          "categories": ["Commands"]
+        },
+        {
+          "name": "code-review",
+          "description": "Perform comprehensive code reviews of recent changes",
+          "categories": ["Commands"]
+        },
+        {
+          "name": "bug-detective",
+          "description": "Systematically debug issues with step-by-step approaches",
+          "categories": ["Commands"]
+        },
+        {
+          "name": "test-file",
+          "description": "Generate comprehensive tests for specific files",
+          "categories": ["Commands"]
+        },
+        {
+          "name": "commit",
+          "description": "Creates git commits using conventional commit format with emojis",
+          "categories": ["Commands"]
+        },
+        {
+          "name": "ai-engineer",
+          "description": "Implements AI/ML features and intelligent automation",
+          "categories": ["Agents"]
+        },
+        {
+          "name": "backend-architect",
+          "description": "Designs APIs, databases, and scalable backend systems",
+          "categories": ["Agents"]
+        },
+        {
+          "name": "frontend-developer",
+          "description": "Builds responsive, accessible web interfaces",
+          "categories": ["Agents"]
+        },
+        {
+          "name": "mobile-app-builder",
+          "description": "Develops native iOS/Android and React Native apps",
+          "categories": ["Agents"]
+        },
+        {
+          "name": "project-shipper",
+          "description": "Coordinates launches and go-to-market strategies",
+          "categories": ["Agents"]
+        },
+        {
+          "name": "studio-coach",
+          "description": "Coordinates multi-agent tasks and team performance",
+          "categories": ["Agents"]
+        },
+        {
+          "name": "rapid-prototyper",
+          "description": "Creates MVPs and proof-of-concepts quickly",
+          "categories": ["Agents"]
+        },
+        {
+          "name": "pr-review-toolkit",
+          "description": "Specialized PR review agents",
+          "categories": ["Code Review"],
+          "type": "Anthropic"
+        }
+      ]
+    },
+    {
+      "collection_name": "claude-mem",
+      "collection_url": "https://www.aitmpl.com/plugins/claude-mem",
+      "author": "thedotmack",
+      "plugins": [
+        {
+          "name": "Claude Mem",
+          "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+          "categories": ["Skills", "Hooks"],
+          "stars": 42000,
+          "github_url": "https://github.com/thedotmack/claude-mem",
+          "website_url": "https://claude-mem.ai",
+          "installation": "/plugin install claude-mem@thedotmack-claude-mem"
+        }
+      ]
+    },
+    {
+      "collection_name": "claude-hud",
+      "collection_url": "https://www.aitmpl.com/plugins/claude-hud",
+      "author": "jarrodwatts",
+      "plugins": [
+        {
+          "name": "Claude Hud",
+          "description": "A Claude Code plugin that displays real-time information about context usage, active tools, running agents, and todo progress",
+          "categories": ["Plugins"],
+          "stars": 14000,
+          "github_url": "https://github.com/jarrodwatts/claude-hud",
+          "installation": "/plugin install claude-hud@jarrodwatts-claude-hud",
+          "components": "2 commands (setup, configure)"
+        }
+      ]
+    },
+    {
+      "collection_name": "compound-engineering-plugin",
+      "collection_url": "https://www.aitmpl.com/plugins/compound-engineering-plugin",
+      "author": "EveryInc",
+      "plugins": [
+        {
+          "name": "compound-engineering",
+          "description": "AI-powered development tools that get smarter with every use",
+          "categories": ["Skills", "Agents", "MCPs"],
+          "components": "41 skills, 6 agents, 1 MCP",
+          "github_url": "https://github.com/EveryInc/compound-engineering-plugin",
+          "author": "Kieran Klaassen"
+        },
+        {
+          "name": "coding-tutor",
+          "description": "Tailored coding tutorials leveraging your existing knowledge and codebase, featuring spaced repetition quizzes",
+          "categories": ["Skills", "Commands"],
+          "components": "1 skill, 3 commands",
+          "author": "Nityesh Agarwal"
+        }
+      ]
+    },
+    {
+      "collection_name": "knowledge-work-plugins",
+      "collection_url": "https://www.aitmpl.com/plugins/knowledge-work-plugins",
+      "author": "Anthropic",
+      "total_plugins": 39,
+      "github_url": "https://github.com/anthropics/knowledge-work-plugins",
+      "plugins": [
+        {
+          "name": "productivity",
+          "description": "Manage tasks, plan your day, and build up memory with calendar and email sync",
+          "categories": ["Workplace"]
+        },
+        {
+          "name": "enterprise-search",
+          "description": "Find content across email, chat, documents, and wikis in one interface",
+          "categories": ["Workplace"]
+        },
+        {
+          "name": "cowork-plugin-management",
+          "description": "Create and customize plugins for organizational tools and MCP servers",
+          "categories": ["Development"]
+        },
+        {
+          "name": "sales",
+          "description": "Prospect management, outreach creation, and pipeline strategy tools",
+          "categories": ["Business"]
+        },
+        {
+          "name": "finance",
+          "description": "Journal entries, reconciliation, financial statements, and audit prep",
+          "categories": ["Business"]
+        },
+        {
+          "name": "data",
+          "description": "SQL writing, dataset exploration, visualizations, and dashboard creation",
+          "categories": ["Analytics"]
+        },
+        {
+          "name": "legal",
+          "description": "Contract review, NDA triage, compliance, and precedent research",
+          "categories": ["Business"]
+        },
+        {
+          "name": "marketing",
+          "description": "Content creation, campaign planning, and performance analysis",
+          "categories": ["Business"]
+        },
+        {
+          "name": "customer-support",
+          "description": "Ticket triage, response drafting, escalation, and knowledge base building",
+          "categories": ["Business"]
+        },
+        {
+          "name": "product-management",
+          "description": "Feature specs, roadmap planning, and user research synthesis",
+          "categories": ["Business"]
+        },
+        {
+          "name": "engineering",
+          "description": "Standups, code review, architecture decisions, and incident response",
+          "categories": ["Development"]
+        },
+        {
+          "name": "human-resources",
+          "description": "Recruiting, onboarding, performance reviews, and compliance tracking",
+          "categories": ["Business"]
+        },
+        {
+          "name": "design",
+          "description": "Design critiques, system management, accessibility audits, and dev handoff",
+          "categories": ["Creative"]
+        },
+        {
+          "name": "operations",
+          "description": "Vendor management, process documentation, and capacity planning",
+          "categories": ["Business"]
+        }
+      ]
+    },
+    {
+      "collection_name": "alirezarezvani-claude-skills",
+      "collection_url": "https://www.aitmpl.com/plugins/alirezarezvani-claude-skills",
+      "author": "Alireza Rezvani",
+      "total_plugins": 28,
+      "plugins": [
+        {
+          "name": "marketing-skills",
+          "description": "43 marketing skills across 7 pods: Content, SEO, CRO, Channels, Growth, Intelligence, Sales enablement",
+          "categories": ["Marketing", "Content", "SEO", "CRO"]
+        },
+        {
+          "name": "c-level-skills",
+          "description": "Executive advisory covering CEO, CTO, COO, CPO, CMO, CFO, CRO, CISO, and CHRO roles plus strategic planning",
+          "categories": ["Executive", "Leadership"]
+        },
+        {
+          "name": "engineering-advanced-skills",
+          "description": "35 advanced engineering skills: agent designer, agent workflow designer, AgentHub, RAG architect, database designer",
+          "categories": ["Agent Design", "RAG", "Database", "Migration"]
+        },
+        {
+          "name": "engineering-skills",
+          "description": "30 engineering skills: architecture, frontend, backend, fullstack, QA, DevOps, security, AI/ML, data engineering",
+          "categories": ["Engineering", "Architecture"]
+        },
+        {
+          "name": "ra-qm-skills",
+          "description": "Regulatory and quality management for HealthTech including ISO 13485, FDA, and GDPR compliance",
+          "categories": ["Regulatory", "Quality", "Compliance"]
+        },
+        {
+          "name": "product-skills",
+          "description": "14 product skills with 16 Python tools: product manager toolkit (RICE, PRDs), agile product owner",
+          "categories": ["Product", "PM", "Agile"]
+        },
+        {
+          "name": "pm-skills",
+          "description": "Project management including scrum mastery and Atlassian tools administration",
+          "categories": ["Project Management", "Scrum", "Agile"]
+        },
+        {
+          "name": "business-growth-skills",
+          "description": "Customer success, sales engineering, revenue operations, and contracts",
+          "categories": ["Business Growth", "Sales"]
+        },
+        {
+          "name": "finance-skills",
+          "description": "Financial analysis, DCF valuation, and SaaS metrics coaching",
+          "categories": ["Finance", "Valuation"]
+        },
+        {
+          "name": "pw",
+          "description": "Production-grade Playwright testing toolkit with 9 skills and TestRail integration",
+          "categories": ["Testing", "Playwright", "QA"]
+        },
+        {
+          "name": "self-improving-agent",
+          "description": "Auto-memory curation and pattern extraction into reusable skills",
+          "categories": ["Agent", "Learning"]
+        },
+        {
+          "name": "autoresearch-agent",
+          "description": "Autonomous optimization loops with measurable metrics and 8 built-in evaluators",
+          "categories": ["Research", "Automation"]
+        },
+        {
+          "name": "content-creator",
+          "description": "SEO-optimized content with brand voice analysis and social templates",
+          "categories": ["Content", "Marketing", "SEO"]
+        },
+        {
+          "name": "demand-gen",
+          "description": "Multi-channel demand generation and paid media optimization",
+          "categories": ["Marketing", "Paid Media"]
+        },
+        {
+          "name": "fullstack-engineer",
+          "description": "Full-stack development with React, Node, databases, and deployment",
+          "categories": ["Fullstack", "React", "Backend"]
+        },
+        {
+          "name": "aws-architect",
+          "description": "AWS serverless architecture with IaC templates and cost optimization",
+          "categories": ["AWS", "Serverless", "Cloud"]
+        },
+        {
+          "name": "product-manager",
+          "description": "RICE scoring, customer interview analysis, and PRD generation",
+          "categories": ["Product", "PRD"]
+        },
+        {
+          "name": "scrum-master",
+          "description": "Sprint health analysis, velocity tracking, and retrospectives",
+          "categories": ["Scrum", "Agile"]
+        },
+        {
+          "name": "skill-security-auditor",
+          "description": "Security audit and vulnerability scanner for AI agent skills. Scans for malicious patterns, prompt injection",
+          "categories": ["Security", "Audit"]
+        },
+        {
+          "name": "google-workspace-cli",
+          "description": "Google Workspace automation via gws CLI covering Gmail, Drive, Sheets, Calendar",
+          "categories": ["Google Workspace"]
+        },
+        {
+          "name": "code-to-prd",
+          "description": "Reverse-engineer codebases into complete PRDs for React, Vue, Angular, and backends",
+          "categories": ["PRD", "Documentation"]
+        },
+        {
+          "name": "agenthub",
+          "description": "Multi-agent collaboration enabling parallel subagents competing on solutions",
+          "categories": ["Agent", "Collaboration"]
+        },
+        {
+          "name": "a11y-audit",
+          "description": "WCAG 2.2 accessibility auditing for React, Vue, Angular, and HTML",
+          "categories": ["Accessibility", "A11Y"]
+        },
+        {
+          "name": "executive-mentor",
+          "description": "Adversarial thinking partner for founders and executives. Stress-tests plans, prepares for board meetings",
+          "categories": ["Executive", "Strategy"]
+        },
+        {
+          "name": "docker-development",
+          "description": "Docker optimization, compose orchestration, and security hardening",
+          "categories": ["Docker", "Container"]
+        },
+        {
+          "name": "helm-chart-builder",
+          "description": "Helm chart development for Kubernetes deployments",
+          "categories": ["Helm", "Kubernetes"]
+        },
+        {
+          "name": "terraform-patterns",
+          "description": "Infrastructure-as-code with module patterns and multi-environment strategies",
+          "categories": ["Terraform", "IaC"]
+        },
+        {
+          "name": "research-summarizer",
+          "description": "Structured summarization of academic papers and market research",
+          "categories": ["Research", "Summarization"]
+        }
+      ]
+    },
+    {
+      "collection_name": "buildwithclaude",
+      "collection_url": "https://www.aitmpl.com/plugins/buildwithclaude",
+      "author": "BuildWithClaude Community",
+      "total_plugins": 53,
+      "website_url": "https://www.buildwithclaude.com",
+      "plugins_sample": [
+        {
+          "name": "cashflow",
+          "description": "Finance ledger enabling bank connections via Plaid, spending queries, and transaction categorization",
+          "categories": ["Finance"],
+          "author": "Adam Messinger"
+        },
+        {
+          "name": "claude-hud",
+          "description": "Real-time status display showing context usage and tool activity",
+          "categories": ["Commands"]
+        },
+        {
+          "name": "agents-blockchain-web3",
+          "description": "Specialized for blockchain and smart contract development",
+          "categories": ["Agents", "Web3"]
+        },
+        {
+          "name": "agents-business-finance",
+          "description": "Business analysis and financial modeling expertise",
+          "categories": ["Agents", "Finance"]
+        },
+        {
+          "name": "agents-crypto-trading",
+          "description": "Cryptocurrency and DeFi market analysis",
+          "categories": ["Agents", "Trading"]
+        },
+        {
+          "name": "nextjs-expert",
+          "description": "Next.js development with App Router support",
+          "categories": ["Skills", "Commands"],
+          "type": "Framework"
+        },
+        {
+          "name": "frontend-design-pro",
+          "description": "Advanced design with accessibility (WCAG) focus",
+          "categories": ["Skills", "Commands", "Design"]
+        },
+        {
+          "name": "obsidian-skills",
+          "description": "Obsidian markdown, bases, and canvas tools",
+          "categories": ["Skills"],
+          "author": "kepano"
+        },
+        {
+          "name": "project-boundary",
+          "description": "Security guard blocking destructive operations",
+          "categories": ["Security", "Hooks"],
+          "author": "Justyna Wojtczak"
+        }
+      ]
+    },
+    {
+      "collection_name": "playwright-skill",
+      "collection_url": "https://www.aitmpl.com/plugins/playwright-skill",
+      "author": "lackeyjb",
+      "plugins": [
+        {
+          "name": "Playwright Skill",
+          "description": "Claude Code Skill for browser automation with Playwright. Model-invoked - Claude autonomously writes and executes custom automation for testing and validation.",
+          "categories": ["Skills"],
+          "stars": 2200,
+          "github_url": "https://github.com/lackeyjb/playwright-skill",
+          "installation": "/plugin marketplace add lackeyjb/playwright-skill; /plugin install playwright-skill@lackeyjb-playwright-skill"
+        }
+      ]
+    },
+    {
+      "collection_name": "claude-octopus",
+      "collection_url": "https://www.aitmpl.com/plugins/claude-octopus",
+      "author": "nyldn",
+      "plugins": [
+        {
+          "name": "Claude Octopus",
+          "description": "A multi-LLM orchestration plugin that integrates 8 providers (Codex, Gemini, Claude, Perplexity, OpenRouter, Copilot, Qwen, Ollama) with 47 commands and 50 skills using Double Diamond workflows",
+          "categories": ["Skills", "Agents", "Commands", "Hooks"],
+          "stars": 2100,
+          "github_url": "https://github.com/nyldn/claude-octopus",
+          "features": "50 skills, 47 commands, 8 LLM providers"
+        }
+      ]
+    },
+    {
+      "collection_name": "pg-aiguide",
+      "collection_url": "https://www.aitmpl.com/plugins/pg-aiguide",
+      "author": "Timescale",
+      "plugins": [
+        {
+          "name": "Pg Aiguide",
+          "description": "MCP server and Claude plugin for Postgres skills and documentation. Helps AI coding tools generate better PostgreSQL code.",
+          "categories": ["MCPs"],
+          "stars": 1700,
+          "github_url": "https://github.com/timescale/pg-aiguide"
+        }
+      ]
+    },
+    {
+      "collection_name": "claude-workflow-v2",
+      "collection_url": "https://www.aitmpl.com/plugins/claude-workflow-v2",
+      "author": "CloudAI-X",
+      "plugins": [
+        {
+          "name": "Claude Workflow V2",
+          "description": "Universal Claude Code workflow plugin with agents, skills, hooks, and commands",
+          "categories": ["Workflow", "Productivity"],
+          "stars": 1300,
+          "github_url": "https://github.com/CloudAI-X/claude-workflow-v2",
+          "installation": "/plugin marketplace add CloudAI-X/claude-workflow-v2"
+        }
+      ]
+    },
+    {
+      "collection_name": "n-skills",
+      "collection_url": "https://www.aitmpl.com/plugins/n-skills",
+      "author": "Numman Ali",
+      "total_plugins": 5,
+      "plugins": [
+        {
+          "name": "zai-cli",
+          "description": "Z.AI vision, search, reader, and GitHub exploration via MCP",
+          "categories": ["Skills"],
+          "author": "Numman Ali"
+        },
+        {
+          "name": "gastown",
+          "description": "Multi-agent orchestrator for Claude Code. Use when user mentions gastown, gas town, gt commands, convoys, polecats, rigs, slinging work, multi-agent coordination.",
+          "categories": ["Skills"],
+          "author": "Numman Ali"
+        },
+        {
+          "name": "dev-browser",
+          "description": "Browser automation with persistent page state. Use when users ask to navigate websites, fill forms, take screenshots, extract web data, test web apps, or automate browser workflows.",
+          "categories": ["Skills"],
+          "author": "Sawyer Hood"
+        },
+        {
+          "name": "orchestration",
+          "description": "Multi-agent orchestration for complex tasks using cc-mirror tasks and TodoWrite. Use when tasks require parallel work, multiple agents, sophisticated coordination, or decomposition into parallel subtasks.",
+          "categories": ["Skills"],
+          "author": "Numman Ali"
+        },
+        {
+          "name": "open-source-maintainer",
+          "description": "End-to-end GitHub repository maintenance for open-source projects. Use when asked to triage issues, review PRs, analyze contributor activity, generate maintenance reports, or maintain a repository.",
+          "categories": ["Skills"],
+          "author": "Numman Ali"
+        }
+      ]
+    },
+    {
+      "collection_name": "superpowers-marketplace",
+      "collection_url": "https://www.aitmpl.com/plugins/superpowers-marketplace",
+      "author": "superpowers",
+      "total_plugins": 9,
+      "plugins": [
+        {
+          "name": "superpowers",
+          "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques",
+          "categories": ["Skills"]
+        },
+        {
+          "name": "superpowers-chrome",
+          "description": "Provides direct Chrome DevTools Protocol access through a browsing skill, offering both skill mode with 17 CLI commands and MCP mode with a single browser tool",
+          "categories": ["Skills"],
+          "status": "beta"
+        },
+        {
+          "name": "elements-of-style",
+          "description": "Writing guidance based on William Strunk Jr.'s The Elements of Style (1918)",
+          "categories": ["External"]
+        },
+        {
+          "name": "episodic-memory",
+          "description": "Enables semantic search across Claude Code conversations, allowing users to retrieve and reference previous discussions and patterns between sessions.",
+          "categories": ["Skills"]
+        },
+        {
+          "name": "superpowers-lab",
+          "description": "Experimental skills for Superpowers: tmux automation for interactive CLIs, MCP server discovery, duplicate function detection, Slack messaging, headless Windows VM",
+          "categories": ["Skills"]
+        },
+        {
+          "name": "superpowers-developing-for-claude-code",
+          "description": "Offers tools and documentation for creating Claude Code plugins, skills, and MCP servers with self-update functionality.",
+          "categories": ["Skills"]
+        },
+        {
+          "name": "superpowers-dev",
+          "description": "Development branch requiring uninstallation of other Superpowers versions before installation.",
+          "categories": ["Commands"]
+        },
+        {
+          "name": "claude-session-driver",
+          "description": "Enables launching and monitoring multiple Claude Code sessions as workers via tmux.",
+          "categories": ["External"]
+        },
+        {
+          "name": "double-shot-latte",
+          "description": "Reduces interruptions by automatically determining continuation of work using Claude-based decision making.",
+          "categories": ["External"]
+        }
+      ]
+    },
+    {
+      "collection_name": "ralph-wiggum-marketer",
+      "collection_url": "https://www.aitmpl.com/plugins/ralph-wiggum-marketer",
+      "author": "muratcankoylan",
+      "plugins": [
+        {
+          "name": "Ralph Wiggum Marketer",
+          "description": "A Claude Code Plugin that provides an autonomous AI copywriter.",
+          "categories": ["Plugins"],
+          "stars": 706,
+          "github_url": "https://github.com/muratcankoylan/ralph-wiggum-marketer",
+          "installation": "/plugin marketplace add muratcankoylan/ralph-wiggum-marketer; /plugin install ralph-wiggum-marketer@muratcankoylan-ralph-wiggum-marketer"
+        }
+      ]
+    },
+    {
+      "collection_name": "plugins-for-claude-natives",
+      "collection_url": "https://www.aitmpl.com/plugins/plugins-for-claude-natives",
+      "author": "team-attention",
+      "total_plugins": 13,
+      "github_url": "https://github.com/team-attention/plugins-for-claude-natives",
+      "plugins": [
+        {
+          "name": "agent-council",
+          "description": "Collect and synthesize opinions from multiple AI agents (Gemini, GPT, Codex)",
+          "categories": ["Skills"]
+        },
+        {
+          "name": "clarify",
+          "description": "Provides three analytical frameworks for requirement clarification, strategic analysis, and content evaluation",
+          "categories": ["Skills"]
+        },
+        {
+          "name": "interactive-review",
+          "description": "Interactive markdown review with web UI for visual plan/document approval",
+          "categories": ["Skills"]
+        },
+        {
+          "name": "say-summary",
+          "description": "Text-to-speech summarization feature supporting Korean and English via macOS",
+          "categories": ["Hooks"]
+        },
+        {
+          "name": "youtube-digest",
+          "description": "Summarize YouTube videos with transcript, insights, Korean translation, and quizzes",
+          "categories": ["Skills"]
+        },
+        {
+          "name": "google-calendar",
+          "description": "Multi-account calendar integration with parallel querying and conflict detection",
+          "categories": ["Skills"]
+        },
+        {
+          "name": "session-wrap",
+          "description": "Comprehensive workflow for session documentation and multi-agent analysis",
+          "categories": ["Skills", "Agents", "Commands"]
+        },
+        {
+          "name": "dev",
+          "description": "Developer workflow tools: community scanning, technical decision-making",
+          "categories": ["Skills", "Agents"]
+        },
+        {
+          "name": "kakaotalk",
+          "description": "macOS messaging integration for KakaoTalk via Accessibility API",
+          "categories": ["Skills"]
+        },
+        {
+          "name": "doubt",
+          "description": "Validation trigger for Claude re-examination using !doubt command",
+          "categories": ["Hooks"]
+        },
+        {
+          "name": "gmail",
+          "description": "Email management across accounts with read, search, send capabilities",
+          "categories": ["Skills"]
+        },
+        {
+          "name": "team-assemble",
+          "description": "Dynamically assemble expert agent teams for complex tasks",
+          "categories": ["Skills"]
+        },
+        {
+          "name": "podcast",
+          "description": "Korean podcast generation from multiple sources with auto-upload features",
+          "categories": ["Skills"]
+        }
+      ]
+    },
+    {
+      "collection_name": "cc-marketplace",
+      "collection_url": "https://www.aitmpl.com/plugins/cc-marketplace",
+      "author": "ananddtyagi",
+      "total_plugins": 119,
+      "github_url": "https://github.com/ananddtyagi/cc-marketplace",
+      "stars": 669,
+      "installation": "/plugin marketplace add ananddtyagi/cc-marketplace; /plugin install <plugin-name>@ananddtyagi-cc-marketplace",
+      "plugins_sample": [
+        {
+          "name": "sugar",
+          "description": "Transforms Claude Code into an autonomous development system with specialized agents and workflow automation",
+          "author": "Steven Leggett"
+        },
+        {
+          "name": "ultrathink",
+          "description": "Launches a Coordinator Agent directing four specialist sub-agents for comprehensive task analysis and validation",
+          "author": "Jeronim Morina"
+        },
+        {
+          "name": "experienced-engineer",
+          "description": "Comprehensive engineering suite with specialized subagents and productivity commands for software teams",
+          "author": "Anand Tyagi"
+        },
+        {
+          "name": "code-review",
+          "description": "Comprehensive code review of recent changes",
+          "author": "Anand Tyagi"
+        },
+        {
+          "name": "test-file",
+          "description": "Comprehensive test generation for specific files",
+          "author": "Anand Tyagi"
+        },
+        {
+          "name": "commit",
+          "description": "Creates git commits using conventional commit format with appropriate emojis",
+          "author": "evmts"
+        },
+        {
+          "name": "create-worktrees",
+          "description": "Creates git worktrees for open PRs with branch management",
+          "author": "evmts"
+        },
+        {
+          "name": "pr-review",
+          "description": "Reviews pull request changes before merging",
+          "author": "arkavo-org"
+        },
+        {
+          "name": "documentation-generator",
+          "description": "Creates comprehensive documentation for code, APIs, and projects",
+          "categories": ["Documentation"]
+        },
+        {
+          "name": "plan",
+          "description": "Recommended for harder problems after exploration",
+          "author": "Galen Ward"
+        }
+      ]
+    },
+    {
+      "collection_name": "claude-review-loop",
+      "collection_url": "https://www.aitmpl.com/plugins/claude-review-loop",
+      "author": "hamelsmu",
+      "plugins": [
+        {
+          "name": "Claude Review Loop",
+          "description": "Automated code review loop with Codex",
+          "categories": ["Commands", "Hooks"],
+          "stars": 619,
+          "github_url": "https://github.com/hamelsmu/claude-review-loop"
+        }
+      ]
+    },
+    {
+      "collection_name": "gmickel-claude-marketplace",
+      "collection_url": "https://www.aitmpl.com/plugins/gmickel-claude-marketplace",
+      "author": "Gordon Mickel",
+      "plugins": [
+        {
+          "name": "flow-next",
+          "description": "Zero-dependency planning + execution with .flow/ task tracking and Ralph autonomous mode (multi-model review gates). Features worker subagents for context isolation.",
+          "categories": ["Skills", "Agents", "Commands", "Hooks"],
+          "components": "16 skills, 20 agents, 1 command, 1 hook",
+          "website_url": "https://mickel.tech/apps/flow-next"
+        },
+        {
+          "name": "flow",
+          "description": "Two-step planning + execution workflow with optional Beads integration. Includes multiple subagents and commands for workflow automation.",
+          "categories": ["Skills", "Agents", "Commands"],
+          "components": "7 skills, 6 agents, 1 command"
+        }
+      ]
+    },
+    {
+      "collection_name": "cartographer",
+      "collection_url": "https://www.aitmpl.com/plugins/cartographer",
+      "author": "kingbootoshi",
+      "plugins": [
+        {
+          "name": "Cartographer",
+          "description": "Claude Code plugin that maps and documents codebases of any size using parallel AI subagents",
+          "categories": ["Skills", "Plugins"],
+          "stars": 525,
+          "github_url": "https://github.com/kingbootoshi/cartographer",
+          "installation": "/plugin marketplace add kingbootoshi/cartographer; /plugin install cartographer@kingbootoshi-cartographer"
+        }
+      ]
+    },
+    {
+      "collection_name": "adversarial-spec",
+      "collection_url": "https://www.aitmpl.com/plugins/adversarial-spec",
+      "author": "zscole",
+      "plugins": [
+        {
+          "name": "Adversarial Spec",
+          "description": "A Claude Code plugin that iteratively refines product specifications by debating between multiple LLMs until all models reach consensus.",
+          "categories": ["Skills"],
+          "stars": 516,
+          "github_url": "https://github.com/zscole/adversarial-spec",
+          "installation": "/plugin install adversarial-spec@zscole-adversarial-spec"
+        }
+      ]
+    },
+    {
+      "collection_name": "agent-skills",
+      "collection_url": "https://www.aitmpl.com/plugins/agent-skills",
+      "author": "HashiCorp",
+      "total_plugins": 5,
+      "plugins": [
+        {
+          "name": "terraform-code-generation",
+          "description": "Terraform code generation skills including HCL generation, style guides, and testing.",
+          "categories": ["Skills", "MCPs"],
+          "components": "4 skills, 1 MCP",
+          "developer": "HashiCorp"
+        },
+        {
+          "name": "terraform-module-generation",
+          "description": "Terraform module generation and refactoring skills including module design and Terraform Stacks.",
+          "categories": ["Skills", "MCPs"],
+          "components": "2 skills, 1 MCP",
+          "developer": "HashiCorp"
+        },
+        {
+          "name": "terraform-provider-development",
+          "description": "Terraform provider development skills including resources, data sources, actions, and acceptance testing.",
+          "categories": ["Skills"],
+          "components": "5 skills",
+          "developer": "HashiCorp"
+        },
+        {
+          "name": "packer-builders",
+          "description": "Packer builder skills for AWS, Azure, and Windows image creation.",
+          "categories": ["Skills"],
+          "components": "3 skills",
+          "developer": "HashiCorp"
+        },
+        {
+          "name": "packer-hcp",
+          "description": "HCP Packer registry integration for tracking and managing image metadata.",
+          "categories": ["Skills"],
+          "components": "1 skill",
+          "developer": "HashiCorp"
+        }
+      ]
+    },
+    {
+      "collection_name": "claude-notifications-go",
+      "collection_url": "https://www.aitmpl.com/plugins/claude-notifications-go",
+      "author": "777genius",
+      "plugins": [
+        {
+          "name": "Claude Notifications Go",
+          "description": "Cross-platform smart notifications plugin for Claude Code. 6 types. Click-to-focus. 1 line installation. Instant. Analyze context. Zero dependencies. Webhooks (ntfy, slack, telegram...).",
+          "categories": ["Plugins"],
+          "stars": 392,
+          "github_url": "https://github.com/777genius/claude-notifications-go",
+          "components": "4 commands, hooks",
+          "features": "Linux, macOS, Windows support; webhook integration"
+        }
+      ]
+    },
+    {
+      "collection_name": "claude-equity-research",
+      "collection_url": "https://www.aitmpl.com/plugins/claude-equity-research",
+      "author": "quant-sentiment-ai",
+      "plugins": [
+        {
+          "name": "Claude Equity Research",
+          "description": "Claude Code Plugin for institutional-grade equity research. Generates professional buy/sell recommendations with comprehensive fundamental analysis, technical indicators, and risk assessment.",
+          "categories": ["Plugins"],
+          "stars": 389,
+          "github_url": "https://github.com/quant-sentiment-ai/claude-equity-research",
+          "disclaimer": "Educational use only - not financial advice"
+        }
+      ]
+    },
+    {
+      "collection_name": "claude-code-lsps",
+      "collection_url": "https://www.aitmpl.com/plugins/claude-code-lsps",
+      "author": "Piebald LLC",
+      "total_plugins": 26,
+      "github_url": "https://github.com/Piebald-AI/claude-code-lsps",
+      "plugins": [
+        {
+          "name": "vtsls",
+          "description": "TypeScript and JavaScript language server integration",
+          "categories": ["LSP"],
+          "creator": "Piebald LLC"
+        },
+        {
+          "name": "rust-analyzer",
+          "description": "Rust language server integration",
+          "categories": ["LSP"],
+          "creator": "Piebald LLC"
+        },
+        {
+          "name": "pyright",
+          "description": "Python language server with excellent type checking",
+          "categories": ["LSP"],
+          "creator": "Piebald LLC"
+        },
+        {
+          "name": "basedpyright",
+          "description": "Python language server with stricter type checking",
+          "categories": ["LSP"],
+          "creator": "Tyler Laprade"
+        },
+        {
+          "name": "gopls",
+          "description": "Official Go language server",
+          "categories": ["LSP"],
+          "creator": "Piebald LLC"
+        },
+        {
+          "name": "jdtls",
+          "description": "Eclipse JDT Language Server for Java",
+          "categories": ["LSP"],
+          "creator": "Piebald LLC"
+        },
+        {
+          "name": "clangd",
+          "description": "LLVM-based language server for C and C++",
+          "categories": ["LSP"],
+          "creator": "Piebald LLC"
+        },
+        {
+          "name": "ruby-lsp",
+          "description": "Modern Ruby language server by Shopify",
+          "categories": ["LSP"],
+          "creator": "Piebald LLC"
+        },
+        {
+          "name": "vscode-langservers",
+          "description": "HTML and CSS language servers from VS Code",
+          "categories": ["LSP"],
+          "creator": "Piebald LLC"
+        },
+        {
+          "name": "phpactor",
+          "description": "Intelligent PHP completion and refactoring server",
+          "categories": ["LSP"],
+          "creator": "Piebald LLC"
+        },
+        {
+          "name": "omnisharp",
+          "description": ".NET language server with rich C# support",
+          "categories": ["LSP"],
+          "creator": "Piebald LLC"
+        },
+        {
+          "name": "powershell-editor-services",
+          "description": "Official PowerShell language server by Microsoft",
+          "categories": ["LSP"],
+          "creator": "Piebald LLC"
+        },
+        {
+          "name": "kotlin-lsp",
+          "description": "Kotlin language server by JetBrains",
+          "categories": ["LSP"],
+          "creator": "Piebald LLC"
+        },
+        {
+          "name": "texlab",
+          "description": "LaTeX language server with completion and references",
+          "categories": ["LSP"],
+          "creator": "Micah Stubbs"
+        },
+        {
+          "name": "bsl-lsp",
+          "description": "BSL Language Server for 1C:Enterprise",
+          "categories": ["LSP"],
+          "creator": "Nikita Fedkin"
+        },
+        {
+          "name": "julia-lsp",
+          "description": "Julia language server using LanguageServer.jl",
+          "categories": ["LSP"],
+          "creator": "Piebald LLC"
+        },
+        {
+          "name": "vue-volar",
+          "description": "Vue.js language server (Volar)",
+          "categories": ["LSP"],
+          "creator": "Piebald LLC"
+        },
+        {
+          "name": "ocaml-lsp",
+          "description": "OCaml language server",
+          "categories": ["LSP"],
+          "creator": "yousleepwhen"
+        },
+        {
+          "name": "ada-language-server",
+          "description": "Ada/SPARK and GPR language server",
+          "categories": ["LSP"],
+          "creator": "Quentin DAUPRAT"
+        },
+        {
+          "name": "dart",
+          "description": "Dart language server for Claude Code",
+          "categories": ["LSP"],
+          "creator": "Piebald LLC"
+        },
+        {
+          "name": "solidity-language-server",
+          "description": "Fast Solidity language server by Foundry",
+          "categories": ["LSP"],
+          "creator": "Piebald LLC"
+        },
+        {
+          "name": "metals",
+          "description": "Scala language server with rich IDE features",
+          "categories": ["LSP"],
+          "creator": "Piebald LLC"
+        },
+        {
+          "name": "mdbase-lsp",
+          "description": "Language server for mdbase markdown collections",
+          "categories": ["LSP"],
+          "creator": "Piebald LLC"
+        },
+        {
+          "name": "lean4-lake-lsp",
+          "description": "Lean 4 language server via Lake",
+          "categories": ["LSP"],
+          "creator": "Yingte Xu"
+        },
+        {
+          "name": "lean4-lean-lsp",
+          "description": "Lean 4 language server via lean binary",
+          "categories": ["LSP"],
+          "creator": "Yingte Xu"
+        },
+        {
+          "name": "svelte-lsp",
+          "description": "Svelte language server integration",
+          "categories": ["LSP"],
+          "creator": "RaviTharuma"
+        }
+      ]
+    },
+    {
+      "collection_name": "pinion-os",
+      "collection_url": "https://www.aitmpl.com/plugins/pinion-os",
+      "author": "chu2bard",
+      "plugins": [
+        {
+          "name": "Pinion Os",
+          "description": "Client SDK, Claude plugin and skill framework for the Pinion protocol. x402 micropayments on Base.",
+          "categories": ["Plugins", "MCP Servers"],
+          "stars": 357,
+          "github_url": "https://github.com/chu2bard/pinion-os",
+          "installation": "/plugin install pinion-os@chu2bard-pinion-os"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_collections_processed": 30,
+    "total_unique_plugins_documented": 1072,
+    "largest_collections": [
+      "claude-code-plugins-plus-skills (416 plugins)",
+      "claude-plugins-official (119 plugins)",
+      "cc-marketplace (119 plugins)",
+      "ccplugins-awesome-claude-code-plugins (118 plugins)",
+      "buildwithclaude (53 plugins)"
+    ],
+    "plugin_categories": [
+      "Skills",
+      "Agents",
+      "Commands",
+      "Hooks",
+      "MCPs",
+      "LSPs",
+      "Plugins"
+    ]
+  }
+}

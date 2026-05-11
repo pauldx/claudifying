@@ -1,0 +1,539 @@
+{
+  "generated": "2026-05-11T00:00:00Z",
+  "source": "aitmpl.com/mcps",
+  "total": 55,
+  "note": "MCP servers from aitmpl.com marketplace. See CATALOG.md for full index with install commands.",
+  "categories": {
+    "devtools": {
+      "count": 8,
+      "display_name": "DevTools",
+      "servers": [
+        {
+          "name": "leetcode",
+          "description": "Solve and practice LeetCode problems",
+          "category": "devtools",
+          "install": "npm install @aitmpl/mcp-devtools-leetcode",
+          "url": "https://www.aitmpl.com/component/mcp/devtools/leetcode",
+          "downloads": 83,
+          "verified": true
+        },
+        {
+          "name": "github",
+          "description": "GitHub integration for repositories and issues",
+          "category": "devtools",
+          "install": "npm install @aitmpl/mcp-devtools-github",
+          "url": "https://www.aitmpl.com/component/mcp/devtools/github",
+          "downloads": 142,
+          "verified": true
+        },
+        {
+          "name": "docker",
+          "description": "Docker container management and deployment",
+          "category": "devtools",
+          "install": "npm install @aitmpl/mcp-devtools-docker",
+          "url": "https://www.aitmpl.com/component/mcp/devtools/docker",
+          "downloads": 67,
+          "verified": true
+        },
+        {
+          "name": "git",
+          "description": "Git version control operations",
+          "category": "devtools",
+          "install": "npm install @aitmpl/mcp-devtools-git",
+          "url": "https://www.aitmpl.com/component/mcp/devtools/git",
+          "downloads": 156,
+          "verified": true
+        },
+        {
+          "name": "npm",
+          "description": "NPM package management and registry",
+          "category": "devtools",
+          "install": "npm install @aitmpl/mcp-devtools-npm",
+          "url": "https://www.aitmpl.com/component/mcp/devtools/npm",
+          "downloads": 89,
+          "verified": true
+        },
+        {
+          "name": "vscode",
+          "description": "VS Code integration and workspace management",
+          "category": "devtools",
+          "install": "npm install @aitmpl/mcp-devtools-vscode",
+          "url": "https://www.aitmpl.com/component/mcp/devtools/vscode",
+          "downloads": 45,
+          "verified": true
+        },
+        {
+          "name": "terraform",
+          "description": "Terraform infrastructure as code management",
+          "category": "devtools",
+          "install": "npm install @aitmpl/mcp-devtools-terraform",
+          "url": "https://www.aitmpl.com/component/mcp/devtools/terraform",
+          "downloads": 52,
+          "verified": true
+        },
+        {
+          "name": "kubernetes",
+          "description": "Kubernetes cluster management and operations",
+          "category": "devtools",
+          "install": "npm install @aitmpl/mcp-devtools-kubernetes",
+          "url": "https://www.aitmpl.com/component/mcp/devtools/kubernetes",
+          "downloads": 38,
+          "verified": true
+        }
+      ]
+    },
+    "databases": {
+      "count": 9,
+      "display_name": "Databases",
+      "servers": [
+        {
+          "name": "postgresql",
+          "description": "PostgreSQL database connection and queries",
+          "category": "databases",
+          "install": "npm install @aitmpl/mcp-databases-postgresql",
+          "url": "https://www.aitmpl.com/component/mcp/databases/postgresql",
+          "downloads": 124,
+          "verified": true
+        },
+        {
+          "name": "mongodb",
+          "description": "MongoDB document database operations",
+          "category": "databases",
+          "install": "npm install @aitmpl/mcp-databases-mongodb",
+          "url": "https://www.aitmpl.com/component/mcp/databases/mongodb",
+          "downloads": 98,
+          "verified": true
+        },
+        {
+          "name": "mysql",
+          "description": "MySQL database connection and operations",
+          "category": "databases",
+          "install": "npm install @aitmpl/mcp-databases-mysql",
+          "url": "https://www.aitmpl.com/component/mcp/databases/mysql",
+          "downloads": 76,
+          "verified": true
+        },
+        {
+          "name": "redis",
+          "description": "Redis cache and data structure operations",
+          "category": "databases",
+          "install": "npm install @aitmpl/mcp-databases-redis",
+          "url": "https://www.aitmpl.com/component/mcp/databases/redis",
+          "downloads": 91,
+          "verified": true
+        },
+        {
+          "name": "supabase",
+          "description": "Supabase backend and database management",
+          "category": "databases",
+          "install": "npm install @aitmpl/mcp-databases-supabase",
+          "url": "https://www.aitmpl.com/component/mcp/databases/supabase",
+          "downloads": 63,
+          "verified": true
+        },
+        {
+          "name": "firebase",
+          "description": "Firebase Firestore and Realtime Database",
+          "category": "databases",
+          "install": "npm install @aitmpl/mcp-databases-firebase",
+          "url": "https://www.aitmpl.com/component/mcp/databases/firebase",
+          "downloads": 71,
+          "verified": true
+        },
+        {
+          "name": "dynamodb",
+          "description": "AWS DynamoDB table operations",
+          "category": "databases",
+          "install": "npm install @aitmpl/mcp-databases-dynamodb",
+          "url": "https://www.aitmpl.com/component/mcp/databases/dynamodb",
+          "downloads": 47,
+          "verified": true
+        },
+        {
+          "name": "elasticsearch",
+          "description": "Elasticsearch search and analytics",
+          "category": "databases",
+          "install": "npm install @aitmpl/mcp-databases-elasticsearch",
+          "url": "https://www.aitmpl.com/component/mcp/databases/elasticsearch",
+          "downloads": 34,
+          "verified": true
+        },
+        {
+          "name": "sqlite",
+          "description": "SQLite local database operations",
+          "category": "databases",
+          "install": "npm install @aitmpl/mcp-databases-sqlite",
+          "url": "https://www.aitmpl.com/component/mcp/databases/sqlite",
+          "downloads": 119,
+          "verified": true
+        }
+      ]
+    },
+    "apis": {
+      "count": 12,
+      "display_name": "APIs & Web Services",
+      "servers": [
+        {
+          "name": "rest-api",
+          "description": "Generic REST API client and testing",
+          "category": "apis",
+          "install": "npm install @aitmpl/mcp-apis-rest-api",
+          "url": "https://www.aitmpl.com/component/mcp/apis/rest-api",
+          "downloads": 167,
+          "verified": true
+        },
+        {
+          "name": "graphql",
+          "description": "GraphQL client and query builder",
+          "category": "apis",
+          "install": "npm install @aitmpl/mcp-apis-graphql",
+          "url": "https://www.aitmpl.com/component/mcp/apis/graphql",
+          "downloads": 94,
+          "verified": true
+        },
+        {
+          "name": "stripe",
+          "description": "Stripe payment processing integration",
+          "category": "apis",
+          "install": "npm install @aitmpl/mcp-apis-stripe",
+          "url": "https://www.aitmpl.com/component/mcp/apis/stripe",
+          "downloads": 61,
+          "verified": true
+        },
+        {
+          "name": "openai",
+          "description": "OpenAI GPT and API integration",
+          "category": "apis",
+          "install": "npm install @aitmpl/mcp-apis-openai",
+          "url": "https://www.aitmpl.com/component/mcp/apis/openai",
+          "downloads": 143,
+          "verified": true
+        },
+        {
+          "name": "twilio",
+          "description": "Twilio SMS and communication services",
+          "category": "apis",
+          "install": "npm install @aitmpl/mcp-apis-twilio",
+          "url": "https://www.aitmpl.com/component/mcp/apis/twilio",
+          "downloads": 48,
+          "verified": true
+        },
+        {
+          "name": "slack",
+          "description": "Slack workspace and messaging integration",
+          "category": "apis",
+          "install": "npm install @aitmpl/mcp-apis-slack",
+          "url": "https://www.aitmpl.com/component/mcp/apis/slack",
+          "downloads": 87,
+          "verified": true
+        },
+        {
+          "name": "sendgrid",
+          "description": "SendGrid email delivery service",
+          "category": "apis",
+          "install": "npm install @aitmpl/mcp-apis-sendgrid",
+          "url": "https://www.aitmpl.com/component/mcp/apis/sendgrid",
+          "downloads": 42,
+          "verified": true
+        },
+        {
+          "name": "shopify",
+          "description": "Shopify ecommerce store integration",
+          "category": "apis",
+          "install": "npm install @aitmpl/mcp-apis-shopify",
+          "url": "https://www.aitmpl.com/component/mcp/apis/shopify",
+          "downloads": 55,
+          "verified": true
+        },
+        {
+          "name": "notion",
+          "description": "Notion workspace and database access",
+          "category": "apis",
+          "install": "npm install @aitmpl/mcp-apis-notion",
+          "url": "https://www.aitmpl.com/component/mcp/apis/notion",
+          "downloads": 73,
+          "verified": true
+        },
+        {
+          "name": "linear",
+          "description": "Linear issue tracking and projects",
+          "category": "apis",
+          "install": "npm install @aitmpl/mcp-apis-linear",
+          "url": "https://www.aitmpl.com/component/mcp/apis/linear",
+          "downloads": 51,
+          "verified": true
+        },
+        {
+          "name": "figma",
+          "description": "Figma design and prototyping",
+          "category": "apis",
+          "install": "npm install @aitmpl/mcp-apis-figma",
+          "url": "https://www.aitmpl.com/component/mcp/apis/figma",
+          "downloads": 39,
+          "verified": true
+        },
+        {
+          "name": "jira",
+          "description": "Jira issue tracking and workflow",
+          "category": "apis",
+          "install": "npm install @aitmpl/mcp-apis-jira",
+          "url": "https://www.aitmpl.com/component/mcp/apis/jira",
+          "downloads": 68,
+          "verified": true
+        }
+      ]
+    },
+    "cloud": {
+      "count": 8,
+      "display_name": "Cloud & Infrastructure",
+      "servers": [
+        {
+          "name": "aws",
+          "description": "AWS services (S3, EC2, Lambda, etc.)",
+          "category": "cloud",
+          "install": "npm install @aitmpl/mcp-cloud-aws",
+          "url": "https://www.aitmpl.com/component/mcp/cloud/aws",
+          "downloads": 132,
+          "verified": true
+        },
+        {
+          "name": "gcp",
+          "description": "Google Cloud Platform services",
+          "category": "cloud",
+          "install": "npm install @aitmpl/mcp-cloud-gcp",
+          "url": "https://www.aitmpl.com/component/mcp/cloud/gcp",
+          "downloads": 79,
+          "verified": true
+        },
+        {
+          "name": "azure",
+          "description": "Microsoft Azure cloud services",
+          "category": "cloud",
+          "install": "npm install @aitmpl/mcp-cloud-azure",
+          "url": "https://www.aitmpl.com/component/mcp/cloud/azure",
+          "downloads": 64,
+          "verified": true
+        },
+        {
+          "name": "vercel",
+          "description": "Vercel deployment and edge functions",
+          "category": "cloud",
+          "install": "npm install @aitmpl/mcp-cloud-vercel",
+          "url": "https://www.aitmpl.com/component/mcp/cloud/vercel",
+          "downloads": 102,
+          "verified": true
+        },
+        {
+          "name": "netlify",
+          "description": "Netlify site deployment and functions",
+          "category": "cloud",
+          "install": "npm install @aitmpl/mcp-cloud-netlify",
+          "url": "https://www.aitmpl.com/component/mcp/cloud/netlify",
+          "downloads": 57,
+          "verified": true
+        },
+        {
+          "name": "heroku",
+          "description": "Heroku application deployment",
+          "category": "cloud",
+          "install": "npm install @aitmpl/mcp-cloud-heroku",
+          "url": "https://www.aitmpl.com/component/mcp/cloud/heroku",
+          "downloads": 43,
+          "verified": true
+        },
+        {
+          "name": "digitalocean",
+          "description": "DigitalOcean droplets and app platform",
+          "category": "cloud",
+          "install": "npm install @aitmpl/mcp-cloud-digitalocean",
+          "url": "https://www.aitmpl.com/component/mcp/cloud/digitalocean",
+          "downloads": 36,
+          "verified": true
+        },
+        {
+          "name": "railway",
+          "description": "Railway app deployment and infrastructure",
+          "category": "cloud",
+          "install": "npm install @aitmpl/mcp-cloud-railway",
+          "url": "https://www.aitmpl.com/component/mcp/cloud/railway",
+          "downloads": 31,
+          "verified": true
+        }
+      ]
+    },
+    "utilities": {
+      "count": 10,
+      "display_name": "Utilities & Helpers",
+      "servers": [
+        {
+          "name": "web-scraper",
+          "description": "Web scraping and content extraction",
+          "category": "utilities",
+          "install": "npm install @aitmpl/mcp-utilities-web-scraper",
+          "url": "https://www.aitmpl.com/component/mcp/utilities/web-scraper",
+          "downloads": 95,
+          "verified": true
+        },
+        {
+          "name": "pdf",
+          "description": "PDF generation and processing",
+          "category": "utilities",
+          "install": "npm install @aitmpl/mcp-utilities-pdf",
+          "url": "https://www.aitmpl.com/component/mcp/utilities/pdf",
+          "downloads": 76,
+          "verified": true
+        },
+        {
+          "name": "image-processing",
+          "description": "Image manipulation and conversion",
+          "category": "utilities",
+          "install": "npm install @aitmpl/mcp-utilities-image-processing",
+          "url": "https://www.aitmpl.com/component/mcp/utilities/image-processing",
+          "downloads": 62,
+          "verified": true
+        },
+        {
+          "name": "text-processing",
+          "description": "Text analysis and NLP utilities",
+          "category": "utilities",
+          "install": "npm install @aitmpl/mcp-utilities-text-processing",
+          "url": "https://www.aitmpl.com/component/mcp/utilities/text-processing",
+          "downloads": 88,
+          "verified": true
+        },
+        {
+          "name": "file-system",
+          "description": "File operations and directory management",
+          "category": "utilities",
+          "install": "npm install @aitmpl/mcp-utilities-file-system",
+          "url": "https://www.aitmpl.com/component/mcp/utilities/file-system",
+          "downloads": 156,
+          "verified": true
+        },
+        {
+          "name": "json-xml",
+          "description": "JSON and XML parsing and generation",
+          "category": "utilities",
+          "install": "npm install @aitmpl/mcp-utilities-json-xml",
+          "url": "https://www.aitmpl.com/component/mcp/utilities/json-xml",
+          "downloads": 112,
+          "verified": true
+        },
+        {
+          "name": "crypto",
+          "description": "Cryptography and encryption utilities",
+          "category": "utilities",
+          "install": "npm install @aitmpl/mcp-utilities-crypto",
+          "url": "https://www.aitmpl.com/component/mcp/utilities/crypto",
+          "downloads": 71,
+          "verified": true
+        },
+        {
+          "name": "time-date",
+          "description": "Date and time utilities",
+          "category": "utilities",
+          "install": "npm install @aitmpl/mcp-utilities-time-date",
+          "url": "https://www.aitmpl.com/component/mcp/utilities/time-date",
+          "downloads": 104,
+          "verified": true
+        },
+        {
+          "name": "http-client",
+          "description": "HTTP requests and client library",
+          "category": "utilities",
+          "install": "npm install @aitmpl/mcp-utilities-http-client",
+          "url": "https://www.aitmpl.com/component/mcp/utilities/http-client",
+          "downloads": 138,
+          "verified": true
+        },
+        {
+          "name": "shell",
+          "description": "Shell command execution and scripting",
+          "category": "utilities",
+          "install": "npm install @aitmpl/mcp-utilities-shell",
+          "url": "https://www.aitmpl.com/component/mcp/utilities/shell",
+          "downloads": 121,
+          "verified": true
+        }
+      ]
+    },
+    "ai": {
+      "count": 8,
+      "display_name": "AI & Machine Learning",
+      "servers": [
+        {
+          "name": "huggingface",
+          "description": "Hugging Face models and inference",
+          "category": "ai",
+          "install": "npm install @aitmpl/mcp-ai-huggingface",
+          "url": "https://www.aitmpl.com/component/mcp/ai/huggingface",
+          "downloads": 67,
+          "verified": true
+        },
+        {
+          "name": "llama",
+          "description": "Llama model local inference",
+          "category": "ai",
+          "install": "npm install @aitmpl/mcp-ai-llama",
+          "url": "https://www.aitmpl.com/component/mcp/ai/llama",
+          "downloads": 54,
+          "verified": true
+        },
+        {
+          "name": "anthropic",
+          "description": "Anthropic Claude API integration",
+          "category": "ai",
+          "install": "npm install @aitmpl/mcp-ai-anthropic",
+          "url": "https://www.aitmpl.com/component/mcp/ai/anthropic",
+          "downloads": 89,
+          "verified": true
+        },
+        {
+          "name": "google-ai",
+          "description": "Google AI and Gemini models",
+          "category": "ai",
+          "install": "npm install @aitmpl/mcp-ai-google-ai",
+          "url": "https://www.aitmpl.com/component/mcp/ai/google-ai",
+          "downloads": 73,
+          "verified": true
+        },
+        {
+          "name": "cohere",
+          "description": "Cohere NLP and language models",
+          "category": "ai",
+          "install": "npm install @aitmpl/mcp-ai-cohere",
+          "url": "https://www.aitmpl.com/component/mcp/ai/cohere",
+          "downloads": 45,
+          "verified": true
+        },
+        {
+          "name": "embeddings",
+          "description": "Text embeddings and vector search",
+          "category": "ai",
+          "install": "npm install @aitmpl/mcp-ai-embeddings",
+          "url": "https://www.aitmpl.com/component/mcp/ai/embeddings",
+          "downloads": 61,
+          "verified": true
+        },
+        {
+          "name": "langchain",
+          "description": "LangChain framework and tools",
+          "category": "ai",
+          "install": "npm install @aitmpl/mcp-ai-langchain",
+          "url": "https://www.aitmpl.com/component/mcp/ai/langchain",
+          "downloads": 58,
+          "verified": true
+        },
+        {
+          "name": "vision",
+          "description": "Computer vision and image AI",
+          "category": "ai",
+          "install": "npm install @aitmpl/mcp-ai-vision",
+          "url": "https://www.aitmpl.com/component/mcp/ai/vision",
+          "downloads": 47,
+          "verified": true
+        }
+      ]
+    }
+  }
+}
