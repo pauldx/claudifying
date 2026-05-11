@@ -1,0 +1,35 @@
+# Skill Import Manifest
+Date: 2026-05-11T07:16:06Z
+Source: /tmp/claude-code-templates/cli-tool/components/skills
+Target: /Users/debashispaul/GIT/claudifying/skills
+
+Categories imported: 26
+Total files: 5466
+
+Category breakdown:
+  cf-ai-maestro                                    6 files
+  cf-ai-research                                1530 files
+  cf-analytics                                     7 files
+  cf-business-marketing                          102 files
+  cf-creative-design                             307 files
+  cf-database                                     75 files
+  cf-design-to-code                                4 files
+  cf-development                                1192 files
+  cf-document-processing                         528 files
+  cf-enterprise-communication                    124 files
+  cf-git                                           4 files
+  cf-gmod-addon-maker                              4 files
+  cf-marketing                                     1 files
+  cf-media                                        36 files
+  cf-pocketbase                                    6 files
+  cf-productivity                                141 files
+  cf-railway                                      16 files
+  cf-scientific                                 1032 files
+  cf-security                                     80 files
+  cf-sentry                                        6 files
+  cf-sports                                        2 files
+  cf-utilities                                    22 files
+  cf-video                                        55 files
+  cf-web-data                                     21 files
+  cf-web-development                             105 files
+  cf-workflow-automation                          60 files

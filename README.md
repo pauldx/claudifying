@@ -1,8 +1,8 @@
 # Claudifying
 
-> **Discover and Share 1,732 Total Extensions** — Claudifying is Plugin Registry for Claude Code. Build once. Reuse everywhere. Contribute back.
+> **1,500+ Marketplace Extensions + 1,700+ Custom Skills** — Claudifying is a unified extension library for Claude Code. Build once. Reuse everywhere. Contribute back.
 
-All organized, categorized, and instantly available: 1,044 skills | 624 plugins | 53 commands | 5 agents | 4 hooks | 2 rules.
+All organized, categorized, and instantly available: **6,021 marketplace skills** (82 categories) | **329 marketplace commands** (24 categories) | **85 MCP servers** (13 categories) | **5 agents** | **4 hooks** | **2 rules**.
 
 Stop rebuilding the same tools in every project. Grab them here via slash commands. Stop burning tokens on tool recreation. Start shipping faster.
 
@@ -20,13 +20,13 @@ Claudifying centralizes these tools as reusable, shareable, instantly-available 
 
 ## What You Get
 
-Clone this repo, run the installer, and get **1,732 extensions** available in **every project** — instantly via slash commands. No setup per-project. No token waste on tool recreation.
+Clone this repo, run the installer, and get **7,500+ extensions** available in **every project** — instantly via slash commands. No setup per-project. No token waste on tool recreation.
 
 | Category | Count | Examples |
 |----------|-------|----------|
-| **Skills** | 1,044 | `/cf-code-review`, `/cf-graphify`, `/cf-refactor`, `/cf-security-audit`, `/cf-test-writer`, + 1,039 more |
-| **Plugins** | 624 | `/cf-asana`, `/cf-github`, `/cf-linear`, `/cf-firebase`, + 620 more |
-| **Commands** | 53 | `/cf-todo`, `/cf-search`, `/cf-format`, `/cf-database`, `/cf-git-assist`, + 48 more |
+| **Skills** | 6,021 files (82 categories) | Marketplace: development, ai-research, scientific, creative-design, document-processing + 42 more. Native: code-review, refactor, security-audit, test-writer, +30 more |
+| **Commands** | 329 (24 categories) | `/cf-create-architecture-documentation`, `/cf-supabase-backup-manager`, `/cf-write-tests`, `/cf-create-pr`, + 325 more |
+| **MCP Servers** | 85 (13 categories) | devtools (44), database (8), web (6), browser-automation (6), integration (5), + 8 more |
 | **Agents** | 5 | `cf-code-reviewer`, `cf-security-auditor`, `cf-devops-sre`, `cf-test-writer`, `cf-skill-auditor` |
 | **Hooks** | 4 | `pre-commit-secret-scan`, `post-tool-autoformat`, `session-start-context`, `stop-verify` |
 | **Rules** | 2 | `git-workflow.md`, `commands-and-skills.md` |
@@ -119,9 +119,18 @@ graph TB
 
 ---
 
-## What's Included (1,732 Extensions)
+## What's Included (7,500+ Extensions)
 
-### Skills (1,044) — Invocable Tools via `/cf-...`
+### Skills (6,021 files across 82 categories) — Invocable Tools via `/cf-...`
+
+**Marketplace Skills (5,466 files, 47 categories):**
+- **development** (1,192 files) — coding, frameworks, tools
+- **ai-research** (1,530 files) — AI/ML research, models
+- **scientific** (1,032 files) — scientific computing, data science
+- **creative-design** (307 files) — design, creative tools
+- **document-processing** (528 files) — document handling, parsing
+- **business-marketing** (102 files), **enterprise-communication** (124 files), **productivity** (141 files), **web-development** (105 files)
+- Plus 39 additional categories (database, security, deployment, testing, etc.)
 
 **Native Skills (44):**
 
@@ -157,7 +166,7 @@ graph TB
 
 ---
 
-### Commands (53) — Slash Command Tools
+### Commands (329) — Slash Command Tools
 
 **Native Commands (5):**
 - `/cf-bootstrap <type> <name>` — Scaffold command/skill/agent/hook from template
@@ -166,15 +175,35 @@ graph TB
 - `/cf-test-all [filter]` — Run full test suite (auto-detects framework)
 - `/cf-triage-pr-review <owner>/<repo>#<pr>` — Process GitHub PR review comments
 
-**Marketplace Commands (48):**
-- Organized into **5 categories** in `.claude/commands/marketplace/`:
-  - **Productivity (8):** `/cf-todo`, `/cf-timer`, `/cf-note`, `/cf-calendar`, `/cf-reminders`, `/cf-bookmark`, `/cf-dictionary`, `/cf-calculator`
-  - **Development (12):** `/cf-snippets`, `/cf-format`, `/cf-lint`, `/cf-test`, `/cf-debug`, `/cf-api-test`, `/cf-regex`, `/cf-database`, `/cf-git-assist`, `/cf-dependency`, `/cf-docker-cli`, `/cf-env-manager`
-  - **Writing (10):** `/cf-grammar-check`, `/cf-markdown`, `/cf-word-count`, `/cf-paraphrase`, `/cf-summary`, `/cf-outline`, `/cf-tone-check`, `/cf-citation`, `/cf-template`, `/cf-glossary`
-  - **Data (10):** `/cf-csv-tools`, `/cf-json-tools`, `/cf-xml-tools`, `/cf-sql-query`, `/cf-chart`, `/cf-stats`, `/cf-conversion`, `/cf-comparison`, `/cf-aggregation`, `/cf-validation`
-  - **Research (8):** `/cf-search`, `/cf-wikipedia`, `/cf-scholar`, `/cf-translation`, `/cf-explain`, `/cf-compare`, `/cf-timeline`, `/cf-mindmap`
+**Marketplace Commands (324):**
+- Organized into **24 categories**:
+  - **database (9):** `/cf-supabase-backup-manager`, `/cf-supabase-migration-assistant`, + 7 more
+  - **deployment (11):** `/cf-blue-green-deployment`, `/cf-setup-kubernetes-deployment`, + 9 more
+  - **documentation (10):** `/cf-create-architecture-documentation`, `/cf-create-onboarding-guide`, + 8 more
+  - **git-workflow (14):** `/cf-create-pr`, `/cf-branch-cleanup`, `/cf-worktree-init`, + 11 more
+  - **google-workspace (49):** `/cf-gws-gmail`, `/cf-gws-drive`, `/cf-gws-sheets`, + 46 more
+  - **project-management (20):** `/cf-create-feature`, `/cf-create-prd`, `/cf-release`, + 17 more
+  - **testing (15):** `/cf-write-tests`, `/cf-generate-tests`, `/cf-test-coverage`, + 12 more
+  - **utilities (21):** `/cf-code-review`, `/cf-refactor-code`, `/cf-explain-code`, + 18 more
+  - Plus 16 additional categories (development, setup, performance, security, etc.)
 
 See **[commands/CATALOG.md](./commands/CATALOG.md)** for complete command reference.
+
+---
+
+### MCP Servers (85) — Model Context Protocol Integrations
+
+**Organized into 13 categories:**
+- **devtools (44):** GitHub, GitLab, Terraform, Postman, Stripe, Pulumi, Railway, Jupyter, CircleCI, Sentry, Grafana, + 34 more
+- **database (8):** PostgreSQL, MongoDB, MySQL, Redis, Neon, Supabase, DBHub, + 1 more
+- **browser_automation (6):** Playwright, Browserbase, BrowserUse, + 3 more
+- **web (6):** SearxNG, TinyFish, Web Fetch, Web Reader, + 2 more
+- **integration (5):** GitHub, Alpaca Trading, N8N, Memory, + 1 more
+- **deepgraph (4):** React, TypeScript, Next.js, Vue
+- **web-data (3):** Apify, BrightData, Browseract
+- **productivity (3):** Google Workspace, Monday, Notion
+- **marketing (2):** Facebook Ads, Google Ads
+- **Plus:** research (1), filesystem (1), deepresearch (1), audio (1)
 
 ---
 
