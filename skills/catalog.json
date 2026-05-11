@@ -1,0 +1,4127 @@
+{
+  "generated": "2026-05-11T04:07:33.202Z",
+  "source": "jeremylongshore/claude-code-plugins-plus-skills",
+  "total": 500,
+  "categories": {
+    "01-devops-basics": {
+      "count": 25,
+      "display_name": "DevOps Basics",
+      "skills": [
+        {
+          "name": "bash-script-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "branch-naming-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "changelog-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "commit-message-formatter",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "docker-compose-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "docker-container-basics",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "dockerfile-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "dotenv-manager",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "environment-variables-handler",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "git-workflow-manager",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "github-actions-starter",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "gitignore-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "gitlab-ci-basics",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "jenkins-pipeline-intro",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "json-config-manager",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "linux-commands-guide",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "makefile-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "npm-scripts-optimizer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "package-json-manager",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "pre-commit-hook-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "readme-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "release-notes-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "ssh-key-manager",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "version-bumper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "yaml-config-validator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        }
+      ]
+    },
+    "02-devops-advanced": {
+      "count": 25,
+      "display_name": "DevOps Advanced",
+      "skills": [
+        {
+          "name": "alertmanager-rules-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "ansible-playbook-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "ansible-role-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "argocd-app-deployer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cert-manager-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "consul-service-discovery",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "elasticsearch-index-manager",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "envoy-proxy-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "fluentd-config-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "flux-gitops-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "grafana-dashboard-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "helm-chart-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "helm-values-manager",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "istio-service-mesh-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "kubernetes-configmap-handler",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "kubernetes-deployment-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "kubernetes-ingress-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "kubernetes-secrets-manager",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "kubernetes-service-manager",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "nginx-ingress-manager",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "prometheus-config-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "terraform-module-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "terraform-provider-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "terraform-state-manager",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "vault-secrets-integrator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        }
+      ]
+    },
+    "03-security-fundamentals": {
+      "count": 25,
+      "display_name": "Security Fundamentals",
+      "skills": [
+        {
+          "name": "api-key-manager",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "code-injection-detector",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "content-security-policy-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cookie-security-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cors-policy-validator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "csrf-protection-validator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "dependency-vulnerability-checker",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "env-secret-detector",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "hardcoded-credential-finder",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "http-header-security-audit",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "https-certificate-checker",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "input-validation-checker",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "insecure-deserialization-checker",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "jwt-token-validator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "license-compliance-scanner",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "oauth2-flow-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "password-hash-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "password-strength-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "path-traversal-finder",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "rate-limiter-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "secret-scanner",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "security-headers-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "session-security-checker",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "sql-injection-detector",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "xss-vulnerability-scanner",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Grep, Bash(npm:*)",
+          "compatible-with": "claude-code"
+        }
+      ]
+    },
+    "04-security-advanced": {
+      "count": 25,
+      "display_name": "Security Advanced",
+      "skills": [
+        {
+          "name": "attack-surface-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "certificate-lifecycle-manager",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cloud-security-posture",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "container-security-auditor",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "encryption-at-rest-checker",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "forensics-data-collector",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "gdpr-compliance-scanner",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "hipaa-audit-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "iam-policy-reviewer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "incident-response-planner",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "iso27001-gap-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "key-rotation-manager",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "kubernetes-rbac-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "log-analysis-security",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "network-security-scanner",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "pci-dss-validator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "penetration-test-planner",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "security-benchmark-runner",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "security-policy-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "siem-rule-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "soc2-compliance-checker",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "threat-model-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "vulnerability-report-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "waf-rule-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "zero-trust-config-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        }
+      ]
+    },
+    "05-frontend-dev": {
+      "count": 25,
+      "display_name": "Frontend Development",
+      "skills": [
+        {
+          "name": "accessibility-audit-runner",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "aria-attribute-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "bundle-size-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "code-splitting-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "color-contrast-checker",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "css-module-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "image-optimization-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "keyboard-navigation-tester",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "lazy-loading-implementer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "open-graph-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "performance-lighthouse-runner",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "pinia-store-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "pwa-manifest-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "react-component-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "react-context-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "react-hook-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "redux-slice-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "responsive-breakpoint-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "seo-meta-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "styled-components-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "tailwind-class-optimizer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "vue-component-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "vue-composable-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "web-vitals-monitor",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "zustand-store-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        }
+      ]
+    },
+    "06-backend-dev": {
+      "count": 25,
+      "display_name": "Backend Development",
+      "skills": [
+        {
+          "name": "background-worker-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cron-job-scheduler",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "database-schema-designer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "django-view-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "error-handler-middleware",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "express-route-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "fastapi-router-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "fastify-plugin-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "flask-blueprint-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "gin-middleware-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "go-handler-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "graphql-resolver-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "grpc-service-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "kafka-producer-consumer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "memcached-config-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "nestjs-module-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "prisma-schema-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "rabbitmq-queue-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "rate-limit-middleware",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "redis-cache-manager",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "request-validator-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "sequelize-model-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "sql-migration-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "typeorm-entity-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "websocket-handler-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        }
+      ]
+    },
+    "07-ml-training": {
+      "count": 25,
+      "display_name": "ML Training",
+      "skills": [
+        {
+          "name": "confusion-matrix-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cross-validation-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "data-augmentation-pipeline",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "data-normalization-tool",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "dataset-loader-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "distributed-training-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "early-stopping-callback",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "feature-engineering-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "feature-importance-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "gradient-clipping-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "hyperparameter-tuner",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "learning-rate-scheduler",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "mixed-precision-trainer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "mlflow-tracking-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "model-checkpoint-manager",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "model-evaluation-metrics",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "model-explainability-tool",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "optuna-study-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "pytorch-model-trainer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "roc-curve-plotter",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "sklearn-pipeline-builder",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "tensorboard-visualizer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "tensorflow-model-trainer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "train-test-splitter",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "wandb-experiment-logger",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(python:*), Bash(pip:*)",
+          "compatible-with": "claude-code"
+        }
+      ]
+    },
+    "08-ml-deployment": {
+      "count": 25,
+      "display_name": "ML Deployment",
+      "skills": [
+        {
+          "name": "a-b-test-config-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "azure-ml-deployer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "batch-inference-pipeline",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "canary-deployment-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "fastapi-ml-endpoint",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "feature-store-connector",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "flask-ml-api-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "gpu-resource-optimizer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "inference-latency-profiler",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "model-drift-detector",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "model-export-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "model-pruning-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "model-quantization-tool",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "model-registry-manager",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "model-versioning-manager",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "onnx-converter",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "prediction-monitor",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "sagemaker-endpoint-deployer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "streaming-inference-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "tensorflow-savedmodel-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "tensorflow-serving-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "torchscript-exporter",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "torchserve-config-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "triton-inference-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "vertex-ai-deployer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        }
+      ]
+    },
+    "09-test-automation": {
+      "count": 25,
+      "display_name": "Test Automation",
+      "skills": [
+        {
+          "name": "api-test-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "contract-test-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "coverage-report-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "database-test-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "factory-pattern-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "fixture-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "flaky-test-detector",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "go-test-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "integration-test-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "jest-test-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "mocha-test-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "mock-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "mutation-test-runner",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "property-based-test-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "pytest-test-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "snapshot-test-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "spy-setup-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "stub-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "test-data-builder",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "test-naming-enforcer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "test-organization-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "test-parallelizer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "test-retry-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "unittest-test-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "vitest-test-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        }
+      ]
+    },
+    "10-performance-testing": {
+      "count": 25,
+      "display_name": "Performance Testing",
+      "skills": [
+        {
+          "name": "apdex-score-calculator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "artillery-config-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "benchmark-suite-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "bottleneck-identifier",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "connection-pool-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cpu-profiler-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "database-query-profiler",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "flame-graph-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "gatling-scenario-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "gc-log-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "heap-dump-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "jmeter-test-plan-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "k6-script-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "load-test-scenario-planner",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "locust-test-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "memory-profiler-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "network-latency-tester",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "percentile-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "performance-baseline-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "response-time-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "soak-test-planner",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "spike-test-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "stress-test-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "thread-dump-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "throughput-calculator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        }
+      ]
+    },
+    "11-data-pipelines": {
+      "count": 25,
+      "display_name": "Data Pipelines",
+      "skills": [
+        {
+          "name": "airflow-dag-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "airflow-operator-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "beam-pipeline-builder",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cdc-pipeline-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "compression-optimizer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "dagster-pipeline-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "data-catalog-updater",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "data-lineage-tracker",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "data-partitioner",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "data-quality-checker",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "dbt-model-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "dbt-test-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "file-format-converter",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "flink-job-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "incremental-load-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "kafka-stream-processor",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "luigi-task-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "metadata-extractor",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "pipeline-monitoring-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "prefect-flow-builder",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "pyspark-transformer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "schema-validator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "spark-job-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "spark-sql-optimizer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "sql-transform-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        }
+      ]
+    },
+    "12-data-analytics": {
+      "count": 25,
+      "display_name": "Data Analytics",
+      "skills": [
+        {
+          "name": "ab-test-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "aggregation-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "anomaly-detector",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "chart-type-recommender",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "churn-analysis-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cohort-analysis-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "complex-join-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "correlation-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cte-query-builder",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "dashboard-layout-planner",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "data-story-outliner",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "date-range-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "forecast-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "funnel-analysis-builder",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "kpi-definition-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "metric-calculator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "pivot-table-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "regression-analysis-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "report-template-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "retention-calculator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "sql-query-optimizer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "statistical-significance-calculator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "time-series-decomposer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "visualization-best-practices",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "window-function-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        }
+      ]
+    },
+    "13-aws-skills": {
+      "count": 25,
+      "display_name": "AWS Skills",
+      "skills": [
+        {
+          "name": "api-gateway-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cdk-stack-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cloudformation-template-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cloudfront-distribution-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cloudwatch-alarm-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cost-optimization-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "dynamodb-table-designer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "ecs-task-definition-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "eks-cluster-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "elasticache-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "eventbridge-rule-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "iam-policy-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "iam-role-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "lambda-function-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "lambda-layer-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "rds-instance-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "route53-record-manager",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "s3-bucket-policy-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "s3-lifecycle-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "sam-template-builder",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "security-group-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "sns-topic-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "sqs-queue-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "step-functions-workflow",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "vpc-network-designer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(aws:*)",
+          "compatible-with": "claude-code"
+        }
+      ]
+    },
+    "14-gcp-skills": {
+      "count": 25,
+      "display_name": "GCP Skills",
+      "skills": [
+        {
+          "name": "bigquery-ml-model-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "bigquery-scheduled-query",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "bigquery-table-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "bigquery-view-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cloud-function-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cloud-logging-sink-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cloud-monitoring-alert",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cloud-run-service-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cloud-scheduler-job-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cloud-sql-instance-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "cloud-tasks-queue-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "firebase-rules-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "firestore-index-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "firewall-rule-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "gcs-bucket-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "gcs-lifecycle-policy",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "gke-cluster-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "iam-binding-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "memorystore-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "pubsub-subscription-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "pubsub-topic-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "service-account-manager",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "vertex-ai-endpoint-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "vertex-ai-pipeline-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "vpc-network-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(gcloud:*)",
+          "compatible-with": "claude-code"
+        }
+      ]
+    },
+    "15-api-development": {
+      "count": 25,
+      "display_name": "API Development",
+      "skills": [
+        {
+          "name": "api-caching-strategy",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "api-key-auth-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "api-mock-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "api-rate-limiting-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "api-testing-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "api-throttling-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "bearer-token-validator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "conditional-request-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "etag-handler",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "filtering-query-builder",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "graphql-mutation-builder",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "graphql-resolver-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "graphql-schema-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "graphql-subscription-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "http-method-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "hypermedia-link-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "openapi-spec-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "pagination-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "request-body-validator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "response-schema-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "rest-endpoint-designer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "sorting-parameter-handler",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "status-code-recommender",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "swagger-doc-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "versioning-strategy-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(curl:*), Grep",
+          "compatible-with": "claude-code"
+        }
+      ]
+    },
+    "16-api-integration": {
+      "count": 25,
+      "display_name": "API Integration",
+      "skills": [
+        {
+          "name": "api-client-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "api-health-checker",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "api-response-cacher",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "async-api-caller",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "batch-request-handler",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "circuit-breaker-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "connection-pooling-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "error-mapping-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "http-client-config",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "integration-test-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "long-polling-handler",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "oauth-callback-handler",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "oauth-client-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "polling-mechanism-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "request-interceptor-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "response-transformer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "retry-logic-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "sdk-wrapper-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "server-sent-events-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "timeout-handler",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "webhook-receiver-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "webhook-retry-handler",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "webhook-sender-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "webhook-signature-validator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "websocket-client-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        }
+      ]
+    },
+    "17-technical-docs": {
+      "count": 25,
+      "display_name": "Technical Docs",
+      "skills": [
+        {
+          "name": "adr-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "api-reference-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "architecture-doc-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "changelog-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "code-documentation-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "code-of-conduct-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "configuration-reference-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "contributing-guide-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "deprecation-notice-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "design-doc-template",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "docusaurus-config-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "faq-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "incident-postmortem-template",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "installation-guide-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "jsdoc-comment-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "migration-guide-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "mkdocs-config-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "quickstart-guide-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "readme-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "release-notes-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "runbook-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "sdk-documentation-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "troubleshooting-guide-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "tutorial-outline-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "vitepress-config-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        }
+      ]
+    },
+    "18-visual-content": {
+      "count": 25,
+      "display_name": "Visual Content",
+      "skills": [
+        {
+          "name": "api-flow-diagram-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "architecture-diagram-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "ascii-art-diagram-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "chart-js-config-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "d2-diagram-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "data-visualization-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "database-schema-visualizer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "graphviz-dot-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "infographic-outline-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "mermaid-class-diagram-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "mermaid-er-diagram-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "mermaid-flowchart-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "mermaid-gantt-chart-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "mermaid-sequence-diagram-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "mermaid-state-diagram-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "mindmap-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "network-diagram-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "org-chart-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "plantuml-diagram-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "plotly-chart-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "presentation-slide-outliner",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "process-flow-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "svg-icon-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "technical-diagram-analyzer",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "user-journey-mapper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*), Grep",
+          "compatible-with": "claude-code"
+        }
+      ]
+    },
+    "19-business-automation": {
+      "count": 25,
+      "display_name": "Business Automation",
+      "skills": [
+        {
+          "name": "approval-workflow-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "batch-file-processor",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "calendar-event-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "csv-processor",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "discord-bot-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "document-merger",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "email-parser",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "email-template-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "excel-formula-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "excel-macro-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "form-builder-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "google-sheets-automation",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "invoice-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "make-scenario-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "meeting-scheduler-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "n8n-workflow-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "notification-dispatcher",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "pdf-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "pdf-parser",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "reminder-system-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "report-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "slack-bot-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "survey-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "teams-webhook-sender",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "zapier-integration-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        }
+      ]
+    },
+    "20-enterprise-workflows": {
+      "count": 25,
+      "display_name": "Enterprise Workflows",
+      "skills": [
+        {
+          "name": "acceptance-criteria-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "asana-task-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "audit-trail-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "backlog-grooming-assistant",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "change-request-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "confluence-page-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "definition-of-done-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "executive-summary-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "github-issue-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "github-project-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "gitlab-epic-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "governance-checklist-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "impact-analysis-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "jira-ticket-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "jira-workflow-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "kpi-dashboard-template",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "linear-issue-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "okr-tracker-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "risk-assessment-creator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "roadmap-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "sla-monitor-setup",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "sprint-planning-helper",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "stakeholder-communication-template",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "status-report-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        },
+        {
+          "name": "user-story-generator",
+          "description": "|",
+          "version": "1.0.0",
+          "author": "Jeremy Longshore <jeremy@intentsolutions.io>",
+          "allowed-tools": "Read, Write, Edit, Bash(cmd:*)",
+          "compatible-with": "claude-code"
+        }
+      ]
+    }
+  }
+}
