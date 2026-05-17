@@ -1,0 +1,23 @@
+#HEADER  /cf-tools-video-dub — AI dubbing with Whisper + Edge TTS.
+#SLEEP 600
+#PROMPT
+#USER /cf-tools-video-dub demo.mp4 --voice en-US-AriaNeural --translate es
+#THINK 1400
+#SAY Extracting audio from demo.mp4 (3m 12s)…
+#SLEEP 300
+#CODE → whisper-large-v3        transcribing source (en)
+#CODE → segments                 48 lines · 312 words
+#CODE → translating en → es      via mlx-translate
+#CODE → edge-tts                  rendering es-MX-DaliaNeural
+#SLEEP 400
+#CODE → ffmpeg                    muxing new audio @ 48 kHz AAC
+#OK demo.dubbed.mp4              (3m 12s · same length)
+#OK demo.transcript.srt          (source + translated)
+#DIVIDER
+#HEADER  Voice options
+#CODE en-US-AriaNeural    · en-US-GuyNeural    · en-GB-RyanNeural
+#CODE es-MX-DaliaNeural   · fr-FR-DeniseNeural · de-DE-KatjaNeural
+#OK 270+ voices · 40 languages · no API key needed
+#DIVIDER
+#SAY Lip-sync alignment preserved · run --speed 1.05 if target language is denser.
+#SLEEP 1000

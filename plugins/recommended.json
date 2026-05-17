@@ -1,0 +1,608 @@
+{
+  "recommended": [
+    {
+      "name": "cf-code-review",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Structured code review: bugs, security, maintainability",
+      "invocation": "/cf-code-review",
+      "required": false
+    },
+    {
+      "name": "cf-refactor",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Targeted refactoring with test verification",
+      "invocation": "/cf-refactor",
+      "required": false
+    },
+    {
+      "name": "cf-security-audit",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "OWASP-based security scan and vulnerability detection",
+      "invocation": "/cf-security-audit",
+      "required": false
+    },
+    {
+      "name": "cf-test-writer",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Generate framework-matching tests with full coverage",
+      "invocation": "/cf-test-writer",
+      "required": false
+    },
+    {
+      "name": "cf-bootstrap",
+      "source": "claudifying",
+      "category": "command",
+      "reason": "Scaffold new command, skill, agent, hook, or component",
+      "invocation": "/cf-bootstrap <type> <name>",
+      "required": false
+    },
+    {
+      "name": "cf-document",
+      "source": "claudifying",
+      "category": "command",
+      "reason": "Auto-generate or update documentation (README, API reference, inline docs)",
+      "invocation": "/cf-document [file|directory|project]",
+      "required": false
+    },
+    {
+      "name": "cf-review",
+      "source": "claudifying",
+      "category": "command",
+      "reason": "Code review on current diff or staged changes",
+      "invocation": "/cf-review [file|branch]",
+      "required": false
+    },
+    {
+      "name": "cf-test-all",
+      "source": "claudifying",
+      "category": "command",
+      "reason": "Run full test suite (auto-detects Jest, pytest, Go test, cargo, etc.)",
+      "invocation": "/cf-test-all [filter]",
+      "required": false
+    },
+    {
+      "name": "cf-triage-pr-review",
+      "source": "claudifying",
+      "category": "command",
+      "reason": "Process automated code review comments on GitHub PRs",
+      "invocation": "/cf-triage-pr-review <owner>/<repo>#<pr_number>",
+      "required": false
+    },
+    {
+      "name": "cf-code-reviewer",
+      "source": "claudifying",
+      "category": "agent",
+      "reason": "Specialized subagent for code review (correctness, security, maintainability, performance)",
+      "invocation": "Invoked by Claude (paired with /cf-code-review skill)",
+      "required": false
+    },
+    {
+      "name": "cf-security-auditor",
+      "source": "claudifying",
+      "category": "agent",
+      "reason": "Specialized subagent for security scanning (OWASP, secrets, dependencies)",
+      "invocation": "Invoked by Claude (paired with /cf-security-audit skill)",
+      "required": false
+    },
+    {
+      "name": "cf-devops-sre",
+      "source": "claudifying",
+      "category": "agent",
+      "reason": "Specialized subagent for DevOps/SRE (infrastructure, CI/CD, deployments, reliability)",
+      "invocation": "Invoked by Claude",
+      "required": false
+    },
+    {
+      "name": "cf-test-writer",
+      "source": "claudifying",
+      "category": "agent",
+      "reason": "Specialized subagent for test generation (paired with /cf-test-writer skill)",
+      "invocation": "Invoked by Claude (paired with /cf-test-writer skill)",
+      "required": false
+    },
+    {
+      "name": "pre-commit-secret-scan",
+      "source": "claudifying",
+      "category": "hook",
+      "reason": "Block commits with exposed AWS keys, GitHub tokens, private keys, etc.",
+      "invocation": "Automatic (pre-commit)",
+      "required": false
+    },
+    {
+      "name": "post-tool-autoformat",
+      "source": "claudifying",
+      "category": "hook",
+      "reason": "Auto-format code after edits (Prettier, Black, gofmt, rustfmt)",
+      "invocation": "Automatic (post-tool-use)",
+      "required": false
+    },
+    {
+      "name": "session-start-context",
+      "source": "claudifying",
+      "category": "hook",
+      "reason": "Show branch, uncommitted changes, command/skill count on session start",
+      "invocation": "Automatic (session-start)",
+      "required": false
+    },
+    {
+      "name": "stop-verify",
+      "source": "claudifying",
+      "category": "hook",
+      "reason": "Remind to verify work before finishing (tests, regressions, TODOs)",
+      "invocation": "Automatic (stop)",
+      "required": false
+    },
+    {
+      "name": "cf-code-optmz-caveman",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Performance and readability optimization in caveman mode",
+      "invocation": "/cf-code-optmz-caveman",
+      "required": false
+    },
+    {
+      "name": "cf-code-optmz-graph",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Build knowledge graph from folder structure",
+      "invocation": "/cf-code-optmz-graph",
+      "required": false
+    },
+    {
+      "name": "cf-tools-extract-x",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Extract full content from X.com posts and threads",
+      "invocation": "/cf-tools-extract-x <url>",
+      "required": false
+    },
+    {
+      "name": "cf-tools-image-convert-svg-png",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Convert SVG to retina PNG via Chrome headless",
+      "invocation": "/cf-tools-image-convert-svg-png",
+      "required": false
+    },
+    {
+      "name": "cf-tools-audio",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Audio processing tools",
+      "invocation": "/cf-tools-audio",
+      "required": false
+    },
+    {
+      "name": "cf-tools-video",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Video processing tools",
+      "invocation": "/cf-tools-video",
+      "required": false
+    },
+    {
+      "name": "cf-tools-image",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Image processing tools",
+      "invocation": "/cf-tools-image",
+      "required": false
+    },
+    {
+      "name": "cf-tools-statusline",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Terminal statusline configuration",
+      "invocation": "/cf-tools-statusline",
+      "required": false
+    },
+    {
+      "name": "cf-code-git-create-repo",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Create and initialize git repositories",
+      "invocation": "/cf-code-git-create-repo",
+      "required": false
+    },
+    {
+      "name": "cf-branch-cleanup",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Clean up merged branches automatically",
+      "invocation": "/cf-branch-cleanup",
+      "required": false
+    },
+    {
+      "name": "cf-cleanup-cache",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Remove cache and build artifacts",
+      "invocation": "/cf-cleanup-cache",
+      "required": false
+    },
+    {
+      "name": "cf-devops",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "DevOps infrastructure analysis and optimization",
+      "invocation": "/cf-devops",
+      "required": false
+    },
+    {
+      "name": "cf-mcp-expert",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "MCP (Model Context Protocol) expertise and debugging",
+      "invocation": "/cf-mcp-expert",
+      "required": false
+    },
+    {
+      "name": "cf-optimize-performance",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Performance optimization patterns and techniques",
+      "invocation": "/cf-optimize-performance",
+      "required": false
+    },
+    {
+      "name": "cf-plan-gate",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Pre-implementation planning verification and gate",
+      "invocation": "/cf-plan-gate",
+      "required": false
+    },
+    {
+      "name": "cf-release-manager",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Release coordination and deployment management",
+      "invocation": "/cf-release-manager",
+      "required": false
+    },
+    {
+      "name": "cf-tdd-gate",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "TDD workflow enforcement and test-first verification",
+      "invocation": "/cf-tdd-gate",
+      "required": false
+    },
+    {
+      "name": "cf-workflow-auto",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Automate repetitive development workflows",
+      "invocation": "/cf-workflow-auto",
+      "required": false
+    },
+    {
+      "name": "cf-competitive-intel",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Competitive analysis and market intelligence",
+      "invocation": "/cf-competitive-intel",
+      "required": false
+    },
+    {
+      "name": "cf-research-deep",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Deep research and exploratory investigation",
+      "invocation": "/cf-research-deep",
+      "required": false
+    },
+    {
+      "name": "cf-knowledge-structure",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Build and structure knowledge from research",
+      "invocation": "/cf-knowledge-structure",
+      "required": false
+    },
+    {
+      "name": "cf-onchain",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "On-chain and blockchain data analysis",
+      "invocation": "/cf-onchain",
+      "required": false
+    },
+    {
+      "name": "cf-source-validation",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Validate and verify research sources and claims",
+      "invocation": "/cf-source-validation",
+      "required": false
+    },
+    {
+      "name": "cf-create-pdf",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Generate PDFs from content and templates",
+      "invocation": "/cf-create-pdf",
+      "required": false
+    },
+    {
+      "name": "cf-extract-video",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Extract metadata and frames from video files",
+      "invocation": "/cf-extract-video",
+      "required": false
+    },
+    {
+      "name": "cf-graphify",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Convert OpenAPI specs and code to knowledge graphs (95% token savings)",
+      "invocation": "/cf-graphify",
+      "required": false
+    },
+    {
+      "name": "cf-obsidian-update",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Update Obsidian vault from external sources",
+      "invocation": "/cf-obsidian-update",
+      "required": false
+    },
+    {
+      "name": "cf-excalidraw",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Generate Excalidraw diagrams and sketches",
+      "invocation": "/cf-excalidraw",
+      "required": false
+    },
+    {
+      "name": "cf-flowchart",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Create flowchart diagrams and process flows",
+      "invocation": "/cf-flowchart",
+      "required": false
+    },
+    {
+      "name": "cf-infographic",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Design infographics and data visualizations",
+      "invocation": "/cf-infographic",
+      "required": false
+    },
+    {
+      "name": "cf-ui-ux",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "UI/UX design patterns and best practices",
+      "invocation": "/cf-ui-ux",
+      "required": false
+    },
+    {
+      "name": "cf-video-captions",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Generate video captions and subtitles",
+      "invocation": "/cf-video-captions",
+      "required": false
+    },
+    {
+      "name": "cf-video-editing-plan",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Plan video editing workflows and sequences",
+      "invocation": "/cf-video-editing-plan",
+      "required": false
+    },
+    {
+      "name": "cf-video-hook-generator",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Create compelling video hooks and openings",
+      "invocation": "/cf-video-hook-generator",
+      "required": false
+    },
+    {
+      "name": "cf-video-script",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Write professional video scripts",
+      "invocation": "/cf-video-script",
+      "required": false
+    },
+    {
+      "name": "cf-content-repurpose",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Repurpose content across multiple formats",
+      "invocation": "/cf-content-repurpose",
+      "required": false
+    },
+    {
+      "name": "cf-copywriting",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Professional copywriting patterns and techniques",
+      "invocation": "/cf-copywriting",
+      "required": false
+    },
+    {
+      "name": "cf-scqa",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Situation-Complication-Question-Answer writing framework",
+      "invocation": "/cf-scqa",
+      "required": false
+    },
+    {
+      "name": "cf-summary-compressor",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Compress and summarize content intelligently",
+      "invocation": "/cf-summary-compressor",
+      "required": false
+    },
+    {
+      "name": "cf-tone-enforcer",
+      "source": "claudifying",
+      "category": "skill",
+      "reason": "Enforce consistent tone and style in writing",
+      "invocation": "/cf-tone-enforcer",
+      "required": false
+    }
+  ],
+  "official_plugins": [
+    {
+      "name": "code-review",
+      "marketplace": "claude-plugins-official",
+      "reason": "Official Claude Code plugin for PR review",
+      "required": false
+    },
+    {
+      "name": "pr-review-toolkit",
+      "marketplace": "claude-plugins-official",
+      "reason": "PR review utilities for GitHub integration",
+      "required": false
+    },
+    {
+      "name": "hookify",
+      "marketplace": "claude-plugins-official",
+      "reason": "Create behavioral guard rails via hooks",
+      "required": false
+    },
+    {
+      "name": "commit-commands",
+      "marketplace": "claude-plugins-official",
+      "reason": "Enhanced git commit workflows",
+      "required": false
+    }
+  ],
+  "external_plugins": [
+    {
+      "name": "cf-github",
+      "source": "claude-plugins-official",
+      "category": "plugin",
+      "reason": "GitHub repository management and CI/CD integration",
+      "invocation": "/cf-github",
+      "required": false
+    },
+    {
+      "name": "cf-linear",
+      "source": "claude-plugins-official",
+      "category": "plugin",
+      "reason": "Linear issue tracking and project management",
+      "invocation": "/cf-linear",
+      "required": false
+    },
+    {
+      "name": "cf-discord",
+      "source": "claude-plugins-official",
+      "category": "plugin",
+      "reason": "Discord messaging and team communication",
+      "invocation": "/cf-discord",
+      "required": false
+    },
+    {
+      "name": "cf-telegram",
+      "source": "claude-plugins-official",
+      "category": "plugin",
+      "reason": "Telegram bot integration for notifications",
+      "invocation": "/cf-telegram",
+      "required": false
+    },
+    {
+      "name": "cf-asana",
+      "source": "claude-plugins-official",
+      "category": "plugin",
+      "reason": "Asana task and project management",
+      "invocation": "/cf-asana",
+      "required": false
+    },
+    {
+      "name": "cf-firebase",
+      "source": "claude-plugins-official",
+      "category": "plugin",
+      "reason": "Firebase backend services integration",
+      "invocation": "/cf-firebase",
+      "required": false
+    },
+    {
+      "name": "cf-gitlab",
+      "source": "claude-plugins-official",
+      "category": "plugin",
+      "reason": "GitLab CI/CD and repository management",
+      "invocation": "/cf-gitlab",
+      "required": false
+    },
+    {
+      "name": "cf-greptile",
+      "source": "claude-plugins-official",
+      "category": "plugin",
+      "reason": "Greptile code search and analysis",
+      "invocation": "/cf-greptile",
+      "required": false
+    },
+    {
+      "name": "cf-imessage",
+      "source": "claude-plugins-official",
+      "category": "plugin",
+      "reason": "iMessage communication integration",
+      "invocation": "/cf-imessage",
+      "required": false
+    },
+    {
+      "name": "cf-laravel-boost",
+      "source": "claude-plugins-official",
+      "category": "plugin",
+      "reason": "Laravel development tools and assistance",
+      "invocation": "/cf-laravel-boost",
+      "required": false
+    },
+    {
+      "name": "cf-playwright",
+      "source": "claude-plugins-official",
+      "category": "plugin",
+      "reason": "Playwright browser automation and testing",
+      "invocation": "/cf-playwright",
+      "required": false
+    },
+    {
+      "name": "cf-serena",
+      "source": "claude-plugins-official",
+      "category": "plugin",
+      "reason": "Serena DevOps and CI/CD platform",
+      "invocation": "/cf-serena",
+      "required": false
+    },
+    {
+      "name": "cf-terraform",
+      "source": "claude-plugins-official",
+      "category": "plugin",
+      "reason": "Terraform infrastructure as code management",
+      "invocation": "/cf-terraform",
+      "required": false
+    },
+    {
+      "name": "cf-context7",
+      "source": "claude-plugins-official",
+      "category": "plugin",
+      "reason": "Context7 development environment integration",
+      "invocation": "/cf-context7",
+      "required": false
+    },
+    {
+      "name": "cf-fakechat",
+      "source": "claude-plugins-official",
+      "category": "plugin",
+      "reason": "FakeChat testing and simulation",
+      "invocation": "/cf-fakechat",
+      "required": false
+    }
+  ]
+}

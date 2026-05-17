@@ -1,0 +1,30 @@
+#HEADER  /cf-tools-system-statusline — Live token/git/model bar for Claude Code.
+#SLEEP 600
+#PROMPT
+#USER /cf-tools-system-statusline install
+#THINK 1100
+#SAY Installing ccstatusline as ~/.claude/statusline.sh…
+#SLEEP 250
+#CODE → fetched   ccstatusline@1.4.2
+#CODE → wrote     ~/.claude/settings.json (statusLine block)
+#CODE → registered  refreshInterval=10s
+#OK Statusline live. Sample frames below (real session output):
+#DIVIDER
+#CODE   ╭─  main · 1.2k tok · opus 4.7 · 12s ──────────────────╮
+#SLEEP 900
+#CODE   ╭─  feat/login · 8.4k tok · opus 4.7 · 45s ───────────╮
+#SLEEP 900
+#CODE   ╭─ ⚡ feat/login · 23.7k tok · opus 4.7 · 1m12s ───────╮
+#SLEEP 900
+#CODE   ╭─ 🤖 feat/login · 41.3k tok · compacting… · 1m58s ────╮
+#SLEEP 900
+#CODE   ╭─ ✓ feat/login · 6.1k tok · opus 4.7 · post-compact ──╮
+#SLEEP 700
+#DIVIDER
+#HEADER  Widgets included
+#CODE git branch + dirty marker     · token tally (live)
+#CODE model badge (opus/sonnet)     · session elapsed
+#CODE compression telemetry          · caveman badge (if active)
+#DIVIDER
+#SAY Edit ~/.claude/statusline.config.json to add custom widgets · 0 tokens of context cost.
+#SLEEP 1000

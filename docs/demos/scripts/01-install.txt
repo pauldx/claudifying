@@ -1,0 +1,38 @@
+#HEADER  Claudifying — One-line install. 2,478 extensions, every project.
+#SLEEP 600
+#PROMPT
+#USER npx github:pauldx/claudifying
+#THINK 900
+#CODE Need to install the following packages:
+#CODE   github:pauldx/claudifying
+#CODE Ok to proceed? (y) y
+#SLEEP 300
+#DIVIDER
+#HEADER ╭─ claudifying v1.2 ───────────────────
+#HEADER │  Unified Claude Code extension library
+#HEADER ╰────────────────────────────────────────
+#SLEEP 250
+#CODE ℹ  Cloning https://github.com/pauldx/claudifying.git → ~/.claudifying
+#CODE remote: Enumerating objects: 19790, done.
+#CODE Receiving objects: 100% (19790/19790), 178.4 MiB | 28.1 MiB/s, done.
+#OK Repo ready at ~/.claudifying
+#SLEEP 250
+#CODE ℹ  Running install.sh
+#CODE → Symlinking 1,544 skills    [████████████████████] 100%
+#CODE → Symlinking   585 plugins   [████████████████████] 100%
+#CODE → Symlinking   335 commands  [████████████████████] 100%
+#CODE → Symlinking     5 agents    [████████████████████] 100%
+#CODE → Installing     7 hooks     [████████████████████] 100%
+#CODE → Loading        2 rules     [████████████████████] 100%
+#SLEEP 200
+#OK Installed globally to ~/.claude/
+#OK 2,478 extensions live in every project.
+#DIVIDER
+#SAY Try any /cf-<skill> in Claude Code · github.com/pauldx/claudifying
+#SLEEP 400
+#PROMPT
+#USER cd ~/my-other-project
+#PROMPT
+#USER /cf-code-review
+#SAY (works in every repo — zero per-project setup, zero token waste)
+#SLEEP 900

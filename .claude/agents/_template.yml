@@ -1,0 +1,12 @@
+# Agent Definition Template
+#
+# Place agent definitions here as .yml files.
+# Agents are subagent configurations that can be referenced by skills and commands.
+#
+# Example:
+# name: code-reviewer
+# description: Reviews code changes for quality and correctness
+# model: sonnet
+# instructions: |
+#   You are a code reviewer. Focus on correctness, security, and maintainability.
+#   Be concise. Only flag real issues, not style preferences.

@@ -1,0 +1,21 @@
+#HEADER  /cf-flowchart — Describe a process → get a Mermaid diagram.
+#SLEEP 600
+#PROMPT
+#USER /cf-flowchart "checkout flow with stock check, payment, fallback"
+#THINK 1000
+#SAY Producing flowchart…
+#SLEEP 300
+#CODE flowchart TD
+#CODE     A[User clicks Checkout] --> B{Cart empty?}
+#CODE     B -- yes --> Z[Show empty-cart message]
+#CODE     B -- no  --> C[Reserve stock]
+#CODE     C --> D{Stock OK?}
+#CODE     D -- no  --> E[Suggest alternatives]
+#CODE     D -- yes --> F[Charge payment]
+#CODE     F --> G{Payment OK?}
+#CODE     G -- no  --> H[Retry / fallback gateway]
+#CODE     H --> F
+#CODE     G -- yes --> I[Create order + send receipt]
+#CODE     I --> J[Order confirmation page]
+#OK Saved → docs/diagrams/checkout-flow.md (renderable on GitHub)
+#SLEEP 900

@@ -1,0 +1,22 @@
+#HEADER  cf-code-reviewer agent — parallel review while you keep coding.
+#SLEEP 600
+#PROMPT
+#USER review my current branch with cf-code-reviewer in background
+#THINK 800
+#SAY Spawning cf-code-reviewer subagent on branch feat/checkout…
+#OK Agent #a4f1 started (background)
+#SLEEP 300
+#PROMPT
+#USER (you keep working)
+#SAY ↳ writing tests for invoice.ts…
+#SLEEP 700
+#DIVIDER
+#HEADER  ← agent #a4f1 reported back
+#SAY Reviewed 12 files · 487 lines changed.
+#ERR  HIGH  src/cart/discount.ts:44 — off-by-one on bulk-tier boundary
+#WARN MED   src/checkout/page.tsx:88 — missing aria-label on Pay button
+#WARN MED   src/api/orders.ts:120  — N+1 query on order.items fetch
+#OK   nit   src/utils/money.ts:7   — consider Intl.NumberFormat over manual fmt
+#DIVIDER
+#SAY 1 high, 2 medium, 1 nit. Full report in agent #a4f1 transcript.
+#SLEEP 1000

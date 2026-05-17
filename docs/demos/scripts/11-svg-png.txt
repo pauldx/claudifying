@@ -1,0 +1,22 @@
+#HEADER  /cf-tools-image-convert-svg-png — SVG → retina PNG via headless Chrome.
+#SLEEP 600
+#PROMPT
+#USER /cf-tools-image-convert-svg-png ./logo.svg --width 1024 --scale 2
+#THINK 1100
+#SAY Rasterizing ./logo.svg @ 1024×1024 · 2x retina…
+#SLEEP 300
+#CODE → launching headless chromium
+#CODE → loading SVG (viewBox 0 0 256 256)
+#CODE → scaling 4× internally for crisp anti-aliasing
+#CODE → encoding PNG (truecolor + alpha)
+#SLEEP 400
+#OK ./logo.png            2048×2048 · 184 KB
+#OK ./logo@1x.png         1024×1024 · 62 KB
+#DIVIDER
+#HEADER  Why headless Chrome
+#CODE rsvg-convert         ✗ misses CSS gradients, filters
+#CODE Inkscape CLI         ✗ slow, font fallback issues
+#OK Chromium               ✓ identical to browser render · feDropShadow safe
+#DIVIDER
+#SAY Batch mode: pass a directory · all .svg files exported in parallel.
+#SLEEP 1000

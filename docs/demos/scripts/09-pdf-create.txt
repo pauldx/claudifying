@@ -1,0 +1,23 @@
+#HEADER  /cf-tools-pdf-create — Generate a polished PDF from markdown or content.
+#SLEEP 600
+#PROMPT
+#USER /cf-tools-pdf-create ./report.md --theme business --toc
+#THINK 1200
+#SAY Reading ./report.md (4,820 words, 18 headings)…
+#SLEEP 300
+#CODE → parsing markdown AST
+#CODE → applying theme: business
+#CODE → generating table of contents (12 entries)
+#CODE → rendering pages…
+#SLEEP 400
+#OK ./report.pdf            (32 pages · 1.2 MB)
+#OK ./report.outline.json   (page anchors for sharing)
+#DIVIDER
+#HEADER  Layout summary
+#CODE Cover page          ✓ title, subtitle, date
+#CODE TOC                  ✓ 12 entries auto-linked
+#CODE Body                 ✓ 18 sections, 7 figures, 3 tables
+#CODE Footer               ✓ page numbers, branded
+#DIVIDER
+#SAY PDF ready. Open ./report.pdf to preview · pass --watermark for drafts.
+#SLEEP 1000

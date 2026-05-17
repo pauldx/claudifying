@@ -1,0 +1,47 @@
+{
+  "name": "@pauldx/claudifying",
+  "version": "1.1.0",
+  "description": "Unified Claude Code extension library — installs 1,544 skills, 585 plugins, 335 commands globally via ~/.claude/ symlinks",
+  "bin": {
+    "claudifying": "bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "install.sh",
+    "uninstall.sh",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pauldx/claudifying.git"
+  },
+  "homepage": "https://github.com/pauldx/claudifying#readme",
+  "bugs": {
+    "url": "https://github.com/pauldx/claudifying/issues"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "anthropic",
+    "ai",
+    "cli",
+    "skills",
+    "plugins",
+    "commands",
+    "agents",
+    "extensions",
+    "slash-commands",
+    "developer-tools",
+    "productivity"
+  ],
+  "author": "Debashis Paul (@pauldx)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "start": "node bin/cli.js"
+  }
+}

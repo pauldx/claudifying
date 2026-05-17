@@ -1,0 +1,16 @@
+#HEADER  /cf-bootstrap — Scaffold a new skill/command/agent in seconds.
+#SLEEP 600
+#PROMPT
+#USER /cf-bootstrap skill cf-pricing-analyzer
+#THINK 900
+#SAY Scaffolding skill `cf-pricing-analyzer`…
+#CODE → skills/cf-pricing-analyzer/SKILL.md             [frontmatter ready]
+#CODE → skills/cf-pricing-analyzer/README.md            [usage stub]
+#CODE → skills/cf-pricing-analyzer/scripts/analyze.py   [entry point]
+#CODE → skills/cf-pricing-analyzer/tests/test_basic.py  [smoke test]
+#OK Symlinked to ~/.claude/skills/cf-pricing-analyzer
+#SLEEP 300
+#PROMPT
+#USER /cf-pricing-analyzer
+#SAY (skill live globally — invoke from any project)
+#SLEEP 800

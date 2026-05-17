@@ -1,0 +1,134 @@
+---
+name: code-git-create-repo
+description: Automate GitHub repo creation workflow - guide + local setup
+version: 1.0.0
+author: Claudifying
+tags: [git, github, automation, setup]
+---
+
+# GitHub Repo Creation Skill
+
+Streamline new GitHub repo creation. Guides manual GitHub steps + automates local setup.
+
+## Usage
+
+```
+/code-git-create-repo <project-name> [--public|--private] [--description "..."]
+```
+
+## Workflow
+
+### Step 1: Create on GitHub (Manual)
+1. Go to github.com/new
+2. Enter repository name: `{project-name}`
+3. Visibility: public/private (default: public)
+4. Description: (optional)
+5. Click "Create repository"
+6. Copy URL: `https://github.com/[username]/[repo].git`
+
+### Step 2: Local Setup (Automated)
+```bash
+# Script auto-generates these:
+cd /path/to/project
+git init
+git config user.email "your-email@example.com"
+git config user.name "Your Name"
+echo "# {project-name}" > README.md
+echo "node_modules/" >> .gitignore
+git add .
+git commit -m "Initial commit: {project-name} setup"
+```
+
+### Step 3: Connect & Push (Automated)
+```bash
+git remote add origin https://github.com/[username]/[repo].git
+git branch -M main
+git push -u origin main
+```
+
+## Options
+
+### Public Repository
+```
+/code-git-create-repo my-project --public
+```
+
+### Private Repository
+```
+/code-git-create-repo my-project --private
+```
+
+### With Description
+```
+/code-git-create-repo my-project --description "My awesome project"
+```
+
+## What Happens
+
+**Manual (User):**
+- ✓ Create repo on GitHub
+- ✓ Copy repo URL
+- ✓ Share URL with skill
+
+**Automated (Skill):**
+- ✓ Initialize local git
+- ✓ Create .gitignore
+- ✓ Create README.md
+- ✓ Make initial commit
+- ✓ Add remote
+- ✓ Push to GitHub
+
+## Requirements
+
+- Git installed locally
+- GitHub account
+- Shell access
+
+## Example
+
+```bash
+/code-git-create-repo my-awesome-tool --public --description "Developer tool for CLI automation"
+
+# Output:
+# Step 1: Create on GitHub
+#   Go to: https://github.com/new
+#   Name: my-awesome-tool
+#   Visibility: Public
+#
+# Step 2: Created repo? Paste URL below
+#   > https://github.com/pauldx/my-awesome-tool.git
+#
+# Step 3: Initializing local repo...
+#   ✓ Git initialized
+#   ✓ .gitignore created
+#   ✓ README.md created
+#   ✓ Initial commit done
+#   ✓ Remote added
+#   ✓ Pushed to GitHub
+#
+# Done! Repo ready at: https://github.com/pauldx/my-awesome-tool
+```
+
+## Helper Script
+
+See: `skills/code-git-create-repo/setup.sh`
+
+## Limitations
+
+- ⚠️ GitHub repo must be created manually (for security)
+- Cannot auto-generate licenses (use GitHub UI)
+- Cannot configure branch protection (manual)
+- Cannot set up CI/CD (use GitHub Actions)
+
+## Contributing
+
+To improve this skill:
+1. Fork claudifying
+2. Update `code-git-create-repo.skill`
+3. Submit PR
+
+See [CONTRIBUTING.md](../../CONTRIBUTING.md)
+
+## License
+
+MIT

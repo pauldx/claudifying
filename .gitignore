@@ -1,0 +1,17 @@
+.claude/CLAUDE.md
+
+# graphify output (generated, not tracked)
+graphify-out/
+
+# import/build artifacts
+.import-manifest.txt
+
+# demo generation artifacts (regenerate locally)
+docs/demos/build/
+
+# editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo

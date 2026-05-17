@@ -1,0 +1,23 @@
+#HEADER  /cf-graphify — Turn OpenAPI / codebase into a graph. 95% token cut.
+#SLEEP 600
+#PROMPT
+#USER /cf-graphify ./openapi.yaml
+#THINK 1300
+#SAY Parsing OpenAPI 3.1 spec (2,847 lines, 184 endpoints)…
+#SLEEP 300
+#CODE → endpoints   184
+#CODE → schemas     312
+#CODE → relations 1,026
+#CODE → building knowledge graph…
+#SLEEP 400
+#OK graph.html        (interactive viewer)
+#OK graph.json        (machine-readable)
+#OK GRAPH_REPORT.md   (gaps + audit findings)
+#DIVIDER
+#HEADER  Token math
+#CODE Raw spec sent to Claude        →  84,210 tokens
+#CODE Graph + targeted queries       →   4,180 tokens
+#OK Savings: 95% per query · ~$1.20 saved per round-trip
+#DIVIDER
+#SAY 7 endpoint gaps flagged · 12 untyped schemas · open graph.html to browse.
+#SLEEP 1000
