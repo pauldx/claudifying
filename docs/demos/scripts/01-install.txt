@@ -1,0 +1,28 @@
+#HEADER  Claudifying — One-line install. 1,732 extensions, every project.
+#SLEEP 600
+#PROMPT
+#USER git clone https://github.com/pauldx/claudifying.git ~/claudifying
+#CODE Cloning into '/Users/you/claudifying'...
+#CODE remote: Enumerating objects: 18342, done.
+#CODE remote: Counting objects: 100% (18342/18342), done.
+#CODE Receiving objects: 100% (18342/18342), 134.21 MiB | 24.8 MiB/s, done.
+#OK Cloned 1,732 extensions.
+#SLEEP 400
+#PROMPT
+#USER cd ~/claudifying && ./install.sh --force
+#CODE → Resolving conflicts (backup mode)
+#CODE → Symlinking 1,044 skills    [████████████████████] 100%
+#CODE → Symlinking   624 plugins   [████████████████████] 100%
+#CODE → Symlinking    53 commands  [████████████████████] 100%
+#CODE → Symlinking     5 agents    [████████████████████] 100%
+#CODE → Installing   4 hooks       [████████████████████] 100%
+#CODE → Loading      2 rules       [████████████████████] 100%
+#OK Installed globally to ~/.claude/
+#OK 1,732 extensions live in every project.
+#SLEEP 400
+#PROMPT
+#USER cd ~/my-other-project
+#PROMPT
+#USER /cf-code-review
+#SAY (extensions available everywhere — no per-project setup)
+#SLEEP 800

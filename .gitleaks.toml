@@ -1,0 +1,49 @@
+# gitleaks config for claudifying
+#
+# Repo is a curated library of Claude Code extensions. Most files are
+# documentation, examples, templates, and skill instructions. All "secrets"
+# detected to date are public demo tokens (Supabase demo JWTs, GitBook image
+# CDN tokens, jwt.io standard example) or example placeholders inside docs.
+#
+# This config extends the gitleaks default ruleset and silences known
+# false-positive paths so contributors can run `gitleaks detect` cleanly.
+#
+# REAL secrets (user credentials, API keys, .env) must never be committed —
+# the pre-commit-secret-scan.sh hook still blocks those.
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Documentation, examples, demos, and generated content"
+
+paths = [
+  # Generated / build artifacts (also gitignored)
+  '''graphify-out/.*''',
+  '''docs/demos/build/.*''',
+
+  # Curated skills and plugins library — all content is documentation,
+  # templates, examples, and skill instructions. No live credentials.
+  '''skills/.*''',
+  '''plugins/.*''',
+
+  # Marketplace command catalog — shipped templates and examples
+  '''\.claude/commands/marketplace/.*''',
+]
+
+regexes = [
+  # jwt.io canonical example token
+  '''eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\.eyJzdWIiOiIxMjM0NTY3ODkw''',
+
+  # Supabase demo issuer
+  '''iss":"supabase-demo''',
+
+  # GitBook image CDN signed-URL tokens
+  '''alt=media&[#x26;]*token=[a-f0-9-]{36}''',
+
+  # Common placeholder patterns
+  '''(?i)your[-_]?api[-_]?key''',
+  '''(?i)example[-_]?token''',
+  '''(?i)staging[-_]?(anon|service)[-_]?key''',
+  '''(?i)prod[-_]?(anon|service)[-_]?key''',
+]

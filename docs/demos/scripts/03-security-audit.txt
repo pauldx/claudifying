@@ -1,0 +1,25 @@
+#HEADER  /cf-security-audit — OWASP Top 10 + secret detection on your tree.
+#SLEEP 600
+#PROMPT
+#USER /cf-security-audit
+#THINK 1500
+#SAY Scanning 247 files across src/, api/, infra/…
+#SLEEP 300
+#CODE → OWASP A01 Broken Access Control     ............ pass
+#CODE → OWASP A02 Cryptographic Failures    ............ pass
+#CODE → OWASP A03 Injection                 ............ 1 finding
+#CODE → OWASP A04 Insecure Design           ............ pass
+#CODE → OWASP A05 Security Misconfiguration ............ 2 findings
+#CODE → Secret scan (47 patterns)           ............ 1 finding
+#CODE → Dependency CVE check                ............ 3 findings
+#DIVIDER
+#ERR HIGH    api/users.ts:112  raw SQL on req.body.id  →  SQLi
+#WARN MED    infra/cors.ts:8   Access-Control-Allow-Origin: '*'  →  CORS open
+#WARN MED    docker/Dockerfile:1 base image runs as root
+#ERR CRIT    .env.example:4    AWS_SECRET_ACCESS_KEY committed
+#WARN HIGH   package.json      lodash@4.17.10 → CVE-2021-23337
+#WARN MED    package.json      axios@0.21.0   → CVE-2021-3749
+#WARN MED    package.json      express@4.17.0 → CVE-2024-29041
+#DIVIDER
+#SAY 2 critical, 4 high/med. Audit report → ./.security-audit.md
+#SLEEP 1000

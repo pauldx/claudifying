@@ -21,5 +21,5 @@ Project-specific memories and context for Claude Code sessions.
 ---
 
 **Last Updated:** 2026-05-03
-**Owner:** Debashis Paul (paul.debashis@gmail.com)
+**Owner:** Debashis Paul ([@pauldx](https://github.com/pauldx))
 **Repository:** https://github.com/pauldx/claudifying

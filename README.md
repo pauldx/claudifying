@@ -57,6 +57,12 @@ Claude: *uses pre-built skill* (0 tokens on rebuilding)
 
 ---
 
+## Prerequisites
+
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) installed (`claude` CLI on `PATH`).
+- macOS or Linux. Bash 4+ / zsh. `git`, `curl`.
+- Optional (only if you want to re-render the demo GIFs yourself): [`vhs`](https://github.com/charmbracelet/vhs) — `brew install charmbracelet/tap/vhs`.
+
 ## Quick Start
 
 ```bash
@@ -76,7 +82,55 @@ cd ~/my-project
 /cf-test-writer
 ```
 
-That's it. All 75+ extensions available globally via `~/.claude/` symlinks — zero setup overhead, zero token waste.
+That's it. All 1,732 extensions available globally via `~/.claude/` symlinks — zero setup overhead, zero token waste.
+
+---
+
+## See It In Action
+
+Eight 15-second demos. Each shows one tool doing real work — bugs found, audits run, scaffolds dropped, agents reporting back. No live API keys, no real repos: deterministic recordings made with [`vhs`](https://github.com/charmbracelet/vhs) so the GIFs render identically for everyone. Tape sources live in [`docs/demos/`](./docs/demos/).
+
+### Install — clone, install, use everywhere
+> One install. 1,732 extensions live in every project on your machine.
+
+![install demo](./docs/demos/gifs/01-install.gif)
+
+### `/cf-code-review` — structured PR review (bugs, security, maintainability)
+> Severity-tagged findings with file:line + fix. Drop in any project, run before push.
+
+![code-review demo](./docs/demos/gifs/02-code-review.gif)
+
+### `/cf-security-audit` — OWASP Top 10 + secret + CVE scan
+> Whole-tree sweep across OWASP categories, dependency CVEs, and committed-secret patterns.
+
+![security-audit demo](./docs/demos/gifs/03-security-audit.gif)
+
+### `/cf-graphify` — turn OpenAPI / codebases into a queryable graph (~95% token savings)
+> Sending a 84k-token spec to Claude every turn? Build a graph once. Query it cheap forever.
+
+![graphify demo](./docs/demos/gifs/04-graphify.gif)
+
+### `/cf-bootstrap` — scaffold a new skill / command / agent in seconds
+> Templated files, symlinks wired, ready to invoke globally as soon as it's created.
+
+![bootstrap demo](./docs/demos/gifs/05-bootstrap.gif)
+
+### `/cf-test-writer` — generate framework-matching tests
+> Detects vitest/jest/pytest/go-test, writes happy-path + edge + error cases, runs them.
+
+![test-writer demo](./docs/demos/gifs/06-test-writer.gif)
+
+### `/cf-flowchart` — describe a process, get a Mermaid diagram
+> Natural-language process → renderable Mermaid that GitHub displays inline.
+
+![flowchart demo](./docs/demos/gifs/07-flowchart.gif)
+
+### `cf-code-reviewer` agent — parallel review while you keep coding
+> Spawn an independent subagent on your branch. Keep working. Read its report when it pings back.
+
+![agent demo](./docs/demos/gifs/08-agent.gif)
+
+> **Reproduce locally:** `brew install charmbracelet/tap/vhs && vhs docs/demos/tapes/<name>.tape`
 
 ---
 

@@ -1,0 +1,20 @@
+#HEADER  /cf-code-review — Structured PR review. Bugs. Security. Maintainability.
+#SLEEP 600
+#PROMPT
+#USER /cf-code-review src/auth/login.ts
+#THINK 1400
+#SAY Reviewing src/auth/login.ts (142 lines, 3 functions)…
+#SLEEP 250
+#DIVIDER
+#HEADER  Findings (4)
+#ERR  HIGH  src/auth/login.ts:38 — SQL injection via string concat in loginUser()
+#CODE       fix: use parameterised query, e.g. db.query(sql, [email])
+#WARN MED   src/auth/login.ts:71 — bcrypt rounds = 4 (too low for prod)
+#CODE       fix: bump cost to 12, document in SECURITY.md
+#WARN MED   src/auth/login.ts:94 — error leaks stack trace to client
+#CODE       fix: log server-side, return generic 500 to caller
+#OK   LOW   src/auth/login.ts:18 — useEffect missing dep `userId`
+#CODE       fix: add to deps array or wrap in useCallback
+#DIVIDER
+#SAY Summary: 1 critical, 2 medium, 1 low. Block merge until SQLi resolved.
+#SLEEP 1000

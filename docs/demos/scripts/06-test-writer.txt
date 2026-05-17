@@ -1,0 +1,21 @@
+#HEADER  /cf-test-writer — Generates framework-matching tests with coverage.
+#SLEEP 600
+#PROMPT
+#USER /cf-test-writer src/billing/invoice.ts
+#THINK 1200
+#SAY Detected: vitest + msw · target: src/billing/invoice.ts
+#SLEEP 300
+#CODE → 6 exported functions · 14 branches · 0 existing tests
+#CODE → generating happy path + edge cases + error paths…
+#SLEEP 500
+#OK tests/billing/invoice.spec.ts created (137 lines, 22 cases)
+#OK   ✓ calculateSubtotal — empty cart returns 0
+#OK   ✓ calculateSubtotal — applies line discounts before tax
+#OK   ✓ applyTax — rounds to 2dp HALF_EVEN
+#OK   ✓ applyTax — zero-rate jurisdictions skip line
+#OK   ✓ chargeInvoice — Stripe 402 → retries with idempotency key
+#OK   ✓ chargeInvoice — Stripe 5xx → dead-letters to queue
+#CODE … 16 more cases
+#DIVIDER
+#OK 22/22 passed · branch coverage 94% · runtime 412ms
+#SLEEP 1000
